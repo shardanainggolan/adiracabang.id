@@ -17,7 +17,8 @@ export default function Service() {
 					</div>
 				</div>
                 <div className="flex flex-wrap mx-[-15px] grid-view md:mx-[-20px] lg:mx-[-20px] xl:mx-[-25px] mt-[-40px] xl:mt-0 lg:mt-0">
-                    <div className="md:w-6/12 lg:w-3/12 xl:w-3/12 w-full flex-[0_0_auto] xl:px-[25px] lg:px-[20px] md:px-[20px] px-[15px] max-w-full md:mt-[40px] sm:mt-[40px] xsm:mt-[40px]">
+                    {/* <div className="md:w-6/12 lg:w-3/12 xl:w-3/12 w-full flex-[0_0_auto] xl:px-[25px] lg:px-[20px] md:px-[20px] px-[15px] max-w-full md:mt-[40px] sm:mt-[40px] xsm:mt-[40px]"> */}
+                    <div className="md:w-6/12 lg:w-6/12 xl:w-6/12 w-full flex-[0_0_auto] xl:px-[25px] lg:px-[20px] md:px-[20px] px-[15px] max-w-full md:mt-[40px] sm:mt-[40px] xsm:mt-[40px]">
                         <div className="!relative">
                             <div 
                                 className="shape !rounded-[.4rem] !bg-[#edf2fc] rellax xl:block lg:block md:block absolute"
@@ -35,17 +36,17 @@ export default function Service() {
                                     />
                                 </figure>
                                 <div className="card-body px-6 py-5">
-                                    <h4 className="!mb-1">Gadai BPKB Mobil atau Motor</h4>
-                                    <p className="!mb-0 text-[.85rem]">
-                                        Ajukan pinjaman mulai dari 3 juta rupiah dengan 
-                                        BPKB Motor atau pinjaman dana mulai dari 20 juta rupiah 
-                                        dengan BPKB Mobil.
+                                    <h4 className="!mb-1">
+                                        Gadai BPKB Mobil atau Motor
+                                    </h4>
+                                    <p className="!mb-0 text-xs leading-5">
+                                        Ajukan pinjaman 3 juta dengan BPKB Motor atau 20 juta dengan BPKB Mobil.
                                     </p>
                                     <div className="mt-3">
                                         <Link 
                                             href="https://wa.me/62895424249065?text=Halo%20saya%20ingin%20mengajukan%20Gadai%20BPKB" 
                                             target="_blank"
-                                            className="btn btn-primary w-full rounded-md text-white !bg-[#3f78e0] border-[#3f78e0] hover:text-white hover:bg-[#3f78e0] hover:border-[#3f78e0] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#3f78e0] active:border-[#3f78e0] disabled:text-white disabled:bg-[#3f78e0] disabled:border-[#3f78e0]">
+                                            className="btn btn-primary w-full rounded-md text-white !bg-[#3362fc] border-[#3362fc] hover:text-white hover:bg-[#3362fc] hover:border-[#3362fc] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#3362fc] active:border-[#3362fc] disabled:text-white disabled:bg-[#3362fc] disabled:border-[#3362fc]">
                                             Ajukan Sekarang
                                         </Link>
                                     </div>
@@ -54,7 +55,7 @@ export default function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className="md:w-6/12 lg:w-3/12 xl:w-3/12 w-full flex-[0_0_auto] xl:px-[25px] lg:px-[20px] md:px-[20px] px-[15px] max-w-full md:mt-[40px] sm:mt-[40px] xsm:mt-[40px]">
+                    <div className="md:w-6/12 lg:w-6/12 xl:w-6/12 w-full flex-[0_0_auto] xl:px-[25px] lg:px-[20px] md:px-[20px] px-[15px] max-w-full md:mt-[40px] sm:mt-[40px] xsm:mt-[40px]">
                         <div className="!relative">
                             <div 
                                 className="shape !rounded-[.4rem] !bg-[#edf2fc] rellax xl:block lg:block md:block absolute"
@@ -75,15 +76,14 @@ export default function Service() {
                                     <h4 className="!mb-1">
                                         Take Over dari leasing lain
                                     </h4>
-                                    <p className="!mb-0 text-[.85rem]">
-                                        Pindahkan kredit kendaraan ke Adira Finance, nikmati cicilan lebih ringan, 
-                                        layanan lebih baik, dan kemudahan proses take over BPKB.
+                                    <p className="!mb-0 text-xs leading-5">
+                                        Pindahkan kredit ke Adira Finance, dapatkan cicilan lebih ringan, layanan optimal, dan mudah take over BPKB.
                                     </p>
                                     <div className="mt-3">
                                         <Link 
                                             href="https://wa.me/62895424249065?text=Halo%20saya%20ingin%20mengajukan%20Take%20Over"
                                             target="_blank" 
-                                            className="btn btn-primary w-full rounded-md text-white !bg-[#3f78e0] border-[#3f78e0] hover:text-white hover:bg-[#3f78e0] hover:border-[#3f78e0] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#3f78e0] active:border-[#3f78e0] disabled:text-white disabled:bg-[#3f78e0] disabled:border-[#3f78e0]">
+                                            className="btn btn-primary w-full rounded-md text-white !bg-[#3362fc] border-[#3362fc] hover:text-white hover:bg-[#3362fc] hover:border-[#3362fc] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#3362fc] active:border-[#3362fc] disabled:text-white disabled:bg-[#3362fc] disabled:border-[#3362fc]">
                                             Ajukan Sekarang
                                         </Link>
                                     </div>
@@ -92,7 +92,7 @@ export default function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className="md:w-6/12 lg:w-3/12 xl:w-3/12 w-full flex-[0_0_auto] xl:px-[25px] lg:px-[20px] md:px-[20px] px-[15px] max-w-full md:mt-[40px] sm:mt-[40px] xsm:mt-[40px]">
+                    <div className="md:w-6/12 lg:w-6/12 xl:w-6/12 w-full flex-[0_0_auto] xl:px-[25px] lg:px-[20px] md:px-[20px] px-[15px] max-w-full md:mt-[40px] sm:mt-[40px] xsm:mt-[40px]">
                         <div className="!relative">
                             <div 
                                 className="shape !rounded-[.4rem] !bg-[#edf2fc] rellax xl:block lg:block md:block absolute"
@@ -113,15 +113,15 @@ export default function Service() {
                                     <h4 className="!mb-1">
                                         Top Up Gadai (Khusus debitur aktif Adira)
                                     </h4>
-                                    <p className="!mb-0 text-[.85rem]">
-                                        Tambahan dana untuk debitur aktif Adira dengan meningkatkan nilai 
-                                        gadai BPKB kendaraan tanpa menambah masa tenor kredit.
+                                    <p className="!mb-0 text-xs leading-5">
+                                        Tambahan dana bagi debitur aktif Adira dengan 
+                                        menaikkan nilai gadai BPKB tanpa menambah tenor."
                                     </p>
                                     <div className="mt-3">
                                         <Link 
                                             href="https://wa.me/62895424249065?text=Halo%20saya%20ingin%20mengajukan%20Top%20Up%20Gadai"
                                             target="_blank" 
-                                            className="btn btn-primary w-full rounded-md text-white !bg-[#3f78e0] border-[#3f78e0] hover:text-white hover:bg-[#3f78e0] hover:border-[#3f78e0] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#3f78e0] active:border-[#3f78e0] disabled:text-white disabled:bg-[#3f78e0] disabled:border-[#3f78e0]">
+                                            className="btn btn-primary w-full rounded-md text-white !bg-[#3362fc] border-[#3362fc] hover:text-white hover:bg-[#3362fc] hover:border-[#3362fc] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#3362fc] active:border-[#3362fc] disabled:text-white disabled:bg-[#3362fc] disabled:border-[#3362fc]">
                                             Ajukan Sekarang
                                         </Link>
                                     </div>
@@ -130,7 +130,7 @@ export default function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className="md:w-6/12 lg:w-3/12 xl:w-3/12 w-full flex-[0_0_auto] xl:px-[25px] lg:px-[20px] md:px-[20px] px-[15px] max-w-full md:mt-[40px] sm:mt-[40px] xsm:mt-[40px]">
+                    <div className="md:w-6/12 lg:w-6/12 xl:w-6/12 w-full flex-[0_0_auto] xl:px-[25px] lg:px-[20px] md:px-[20px] px-[15px] max-w-full md:mt-[40px] sm:mt-[40px] xsm:mt-[40px]">
                         <div className="!relative">
                             <div 
                                 className="shape !rounded-[.4rem] !bg-[#edf2fc] rellax xl:block lg:block md:block absolute"
@@ -151,16 +151,15 @@ export default function Service() {
                                     <h4 className="!mb-1">
                                         Pembiayaan Kredit Mobil Bekas
                                     </h4>
-                                    <p className="!mb-0 text-[.85rem]">
-                                        Dapatkan kredit mobil bekas dengan cicilan ringan dan 
-                                        tenor fleksibel melalui Adira Finance, solusi terpercaya 
-                                        untuk pembiayaan kendaraan.
+                                    <p className="!mb-0 text-xs leading-5">
+                                        Kredit mobil bekas dengan cicilan ringan dan tenor 
+                                        fleksibel melalui Adira Finance, solusi terpercaya.
                                     </p>
                                     <div className="mt-3">
                                         <Link 
                                             href="https://wa.me/62895424249065?text=Halo%20saya%20ingin%20mengajukan%20Pembiayaan%20Kredit%20Mobil%20Bekas"
                                             target="_blank" 
-                                            className="btn btn-primary w-full rounded-md text-white !bg-[#3f78e0] border-[#3f78e0] hover:text-white hover:bg-[#3f78e0] hover:border-[#3f78e0] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#3f78e0] active:border-[#3f78e0] disabled:text-white disabled:bg-[#3f78e0] disabled:border-[#3f78e0]">
+                                            className="btn btn-primary w-full rounded-md text-white !bg-[#3362fc] border-[#3362fc] hover:text-white hover:bg-[#3362fc] hover:border-[#3362fc] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#3362fc] active:border-[#3362fc] disabled:text-white disabled:bg-[#3362fc] disabled:border-[#3362fc]">
                                             Ajukan Sekarang
                                         </Link>
                                     </div>

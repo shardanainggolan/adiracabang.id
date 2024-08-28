@@ -43,7 +43,7 @@ export default function Persayaratan() {
                             width={300}
                             height={200}
                             alt="KTP"
-                            className="text-[#3f78e0] mb-3 w-2/3 m-[0_auto] rounded"
+                            className="text-[#3362fc] mb-3 w-2/3 m-[0_auto] rounded"
                         />
                         <h4 className="!mb-1 md:text-base text-xs">
                             KTP (Kartu Tanda Penduduk)
@@ -56,7 +56,7 @@ export default function Persayaratan() {
                             width={300}
                             height={200}
                             alt="Kartu Keluarga"
-                            className="text-[#3f78e0] mb-3 w-2/3 m-[0_auto] rounded"
+                            className="text-[#3362fc] mb-3 w-2/3 m-[0_auto] rounded"
                         />
                         <h4 className="!mb-1 md:text-base text-xs">
                             Kartu Keluarga
@@ -69,7 +69,7 @@ export default function Persayaratan() {
                             width={300}
                             height={200}
                             alt="Bukti Penghasilan"
-                            className="text-[#3f78e0] mb-3 w-2/3 m-[0_auto] rounded"
+                            className="text-[#3362fc] mb-3 w-2/3 m-[0_auto] rounded"
                         />
                         <h4 className="!mb-1">
                             Bukti Penghasilan
@@ -82,7 +82,7 @@ export default function Persayaratan() {
                             width={300}
                             height={200}
                             alt="BPKB"
-                            className="text-[#3f78e0] mb-3 w-2/3 m-[0_auto] rounded"
+                            className="text-[#3362fc] mb-3 w-2/3 m-[0_auto] rounded"
                         />
                         <h4 className="!mb-1">
                             BPKB
@@ -96,7 +96,7 @@ export default function Persayaratan() {
                             width={300}
                             height={200}
                             alt="STNK"
-                            className="text-[#3f78e0] mb-3 w-2/3 m-[0_auto] rounded"
+                            className="text-[#3362fc] mb-3 w-2/3 m-[0_auto] rounded"
                         />
                         <h4 className="!mb-1">
                             STNK
@@ -110,7 +110,7 @@ export default function Persayaratan() {
                             width={300}
                             height={200}
                             alt="NPWP"
-                            className="text-[#3f78e0] mb-3 w-2/3 m-[0_auto] rounded"
+                            className="text-[#3362fc] mb-3 w-2/3 m-[0_auto] rounded"
                         />
                         <h4 className="!mb-1">
                             NPWP
@@ -122,8 +122,8 @@ export default function Persayaratan() {
                     <Link 
                         href="https://wa.me/62895424249065?text=Halo%20saya%20ingin%20mengajukan%20Gadai%20BPKB"
                         target="_blank" 
-                        class="w-72 btn btn-primary text-white !bg-[#3f78e0] border-[#3f78e0] hover:text-white hover:bg-[#3f78e0] hover:border-[#3f78e0] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#3f78e0] active:border-[#3f78e0] disabled:text-white disabled:bg-[#3f78e0] disabled:border-[#3f78e0] !rounded-[50rem]">
-                        Ajukan Sekarang
+                        class="w-72 btn btn-primary text-white !bg-[#3362fc] border-[#3362fc] hover:text-white hover:bg-[#3362fc] hover:border-[#3362fc] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#3362fc] active:border-[#3362fc] disabled:text-white disabled:bg-[#3362fc] disabled:border-[#3362fc] !rounded-[50rem]">
+                        Ajukan Gadai BPKB Sekarang
                     </Link> 
                 </div>
 			</div>
