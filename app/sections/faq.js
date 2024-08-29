@@ -4,72 +4,148 @@ export default function Faq() {
     return (
         <section class="wrapper !bg-[#ffffff] ">
             <div class="container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
-                <div class="flex flex-wrap mx-[-15px] xl:mx-[-35px] lg:mx-[-20px] mt-[-50px]">
-                    <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] xl:px-[35px] lg:px-[20px]  px-[15px] max-w-full mt-[50px]">
-                        <figure class="m-0 p-0">
-                            <Image 
-                                class="w-auto" 
-                                src="/img/faq.png"
-                                width={800}
-                                height={590}
-                                alt="FAQ" 
-                            />
-                        </figure>
-                    </div>
-                    <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] xl:px-[35px] lg:px-[20px]  px-[15px] max-w-full mt-[50px]">
-                        <h2 class="text-[calc(1.305rem_+_0.66vw)] font-bold xl:text-[1.8rem] leading-[1.3] !mb-3">
-                            Common Questions
-                        </h2>
-                        <p class="lead text-[1rem] !mb-6 xxl:pr-10">
-                            If you don't see an <span class="relative z-[2] whitespace-nowrap after:content-[''] after:block after:absolute after:w-[102.5%] after:h-[30%] after:left-[-1.5%] after:z-[-1] after:transition-all after:duration-[0.2s] after:ease-in-out after:mt-0 after:rounded-[5rem] after:bottom-[9%] motion-reduce:after:transition-none after:bg-[rgba(63,120,224,.12)]">
-                                answer to your question</span>, 
-                                you can send us an email from our contact form.</p>
-                        <div class="accordion accordion-wrapper" id="accordionExample-2">
-                            <div class="card plain accordion-item">
-                                <div class="card-header !mb-0 !p-[0_0_.8rem_0] !border-0 !bg-inherit" id="headingOne-2">
+                <h2 class="text-[calc(1.305rem_+_0.66vw)] font-bold xl:text-[1.8rem] leading-[1.3] mb-3 !text-center">
+                    FAQ
+                </h2>
+                <p class="lead text-[0.9rem] font-medium leading-[1.65] !text-center !mb-10 md:!px-24 xl:!px-0 lg:!px-0">
+                    Pertanyaan yang sering diajukan
+                </p>
+                <div class="flex flex-wrap mx-[-15px]">
+                    <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mb-0">
+                        <div id="accordion-1" class="accordion-wrapper">
+                            <div class="card accordion-item mb-5">
+                                <div class="card-header !mb-0 !p-[.9rem_1.3rem_.85rem] !border-0 !bg-inherit" id="accordion-heading-1-1">
                                     <button 
-                                        class="hover:!text-[#3f78e0] accordion-button" 
+                                        class="hover:!text-[#3f78e0] collapsed" 
                                         data-bs-toggle="collapse"
-                                        data-bs-target="#collapseOne-2" 
-                                        aria-expanded="true" 
-                                        aria-controls="collapseOne-2"> 
-                                        Can I cancel my subscription?
+                                        data-bs-target="#accordion-collapse-1-1" 
+                                        aria-expanded="false"
+                                        aria-controls="accordion-collapse-1-1">
+                                        Ketentuan Konsumen
                                     </button>
                                 </div>
                                 <div 
-                                    id="collapseOne-2" 
-                                    class="accordion-collapse collapse show" 
-                                    aria-labelledby="headingOne-2"
-                                    data-bs-parent="#accordionExample-2">
-                                    <div class="card-body flex-[1_1_auto]  pb-4 xl:p-[2rem_2.5rem_1.25rem] lg:p-[2rem_2.5rem_1.25rem] md:p-[2rem_2.5rem_1.25rem]">
+                                    id="accordion-collapse-1-1" 
+                                    class="collapse"
+                                    aria-labelledby="accordion-heading-1-1" 
+                                    data-bs-target="#accordion-1">
+                                    <div class="card-body flex-[1_1_auto] p-[0_1.25rem_.25rem_2.35rem]">
                                         <p>
-                                            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-                                            massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum.
-                                            Praesent commodo cursus magna, vel.
+                                            Konsumen perorangan yang berprofesi sebagai Karyawan (Swasta/PNS), 
+                                            Wiraswasta maupun Profesional, baik yang merupakan nasabah 
+                                            Adira Finance (kontrak aktif atau lunas) maupun yang belum menjadi nasabah.
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="card plain accordion-item">
-                                <div class="card-header !mb-0 !p-[0_0_.8rem_0] !border-0 !bg-inherit" id="headingTwo-2">
+                        </div>
+                    </div>
+                    <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[15px] max-w-full">
+                        <div id="accordion-2" class="accordion-wrapper">
+                            <div class="card accordion-item mb-5">
+                                <div class="card-header !mb-0 !p-[.9rem_1.3rem_.85rem] !border-0 !bg-inherit" id="accordion-heading-2-1">
                                     <button 
                                         class="hover:!text-[#3f78e0] collapsed" 
                                         data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTwo-2" 
-                                        aria-expanded="false" 
-                                        aria-controls="collapseTwo-2">
-                                        Which payment methods do you accept? 
+                                        data-bs-target="#accordion-collapse-2-1" 
+                                        aria-expanded="false"
+                                        aria-controls="accordion-collapse-2-1">
+                                        How do I get my subscription receipt?
                                     </button>
                                 </div>
                                 <div 
-                                    id="collapseTwo-2" class="accordion-collapse collapse" 
-                                    aria-labelledby="headingTwo-2"
-                                    data-bs-parent="#accordionExample-2">
-                                    <div class="card-body flex-[1_1_auto]  pb-4 xl:p-[2rem_2.5rem_1.25rem] lg:p-[2rem_2.5rem_1.25rem] md:p-[2rem_2.5rem_1.25rem]">
+                                    id="accordion-collapse-2-1" 
+                                    class="collapse"
+                                    aria-labelledby="accordion-heading-2-1" 
+                                    data-bs-target="#accordion-2">
+                                    <div class="card-body flex-[1_1_auto] p-[0_1.25rem_.25rem_2.35rem]">
                                         <p>
-                                            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-                                            massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum.
-                                            Praesent commodo cursus magna, vel.
+                                            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+                                            fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet
+                                            fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur
+                                            et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                            ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card accordion-item mb-5">
+                                <div class="card-header !mb-0 !p-[.9rem_1.3rem_.85rem] !border-0 !bg-inherit" id="accordion-heading-2-2">
+                                    <button 
+                                        class="hover:!text-[#3f78e0] collapsed" 
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#accordion-collapse-2-2" 
+                                        aria-expanded="false"
+                                        aria-controls="accordion-collapse-2-2">
+                                        Are there any discounts for people in need?
+                                    </button>
+                                </div>
+                                <div 
+                                    id="accordion-collapse-2-2" 
+                                    class="collapse"
+                                    aria-labelledby="accordion-heading-2-2" 
+                                    data-bs-target="#accordion-2">
+                                    <div class="card-body flex-[1_1_auto] p-[0_1.25rem_.25rem_2.35rem]">
+                                        <p>
+                                            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+                                            fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet
+                                            fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur
+                                            et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                            ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card accordion-item mb-5">
+                                <div class="card-header !mb-0 !p-[.9rem_1.3rem_.85rem] !border-0 !bg-inherit" id="accordion-heading-2-3">
+                                    <button 
+                                        class="hover:!text-[#3f78e0] collapsed" 
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#accordion-collapse-2-3" 
+                                        aria-expanded="false"
+                                        aria-controls="accordion-collapse-2-3">
+                                        Do you offer a free trial edit?
+                                    </button>
+                                </div>
+                                <div 
+                                    id="accordion-collapse-2-3" 
+                                    class="collapse"
+                                    aria-labelledby="accordion-heading-2-3" 
+                                    data-bs-target="#accordion-2">
+                                    <div class="card-body flex-[1_1_auto] p-[0_1.25rem_.25rem_2.35rem]">
+                                        <p>
+                                            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+                                            fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet
+                                            fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur
+                                            et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                            ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card accordion-item mb-5">
+                                <div class="card-header !mb-0 !p-[.9rem_1.3rem_.85rem] !border-0 !bg-inherit" id="accordion-heading-2-4">
+                                    <button 
+                                        class="hover:!text-[#3f78e0] collapsed" 
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#accordion-collapse-2-4" 
+                                        aria-expanded="false"
+                                        aria-controls="accordion-collapse-2-4">
+                                        How do I reset my Account password?
+                                    </button>
+                                </div>
+                                <div 
+                                    id="accordion-collapse-2-4" 
+                                    class="collapse"
+                                    aria-labelledby="accordion-heading-2-4" 
+                                    data-bs-target="#accordion-2">
+                                    <div class="card-body flex-[1_1_auto] p-[0_1.25rem_.25rem_2.35rem]">
+                                        <p>
+                                            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+                                            fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet
+                                            fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur
+                                            et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                            ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.
                                         </p>
                                     </div>
                                 </div>

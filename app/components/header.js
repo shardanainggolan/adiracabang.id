@@ -149,11 +149,17 @@ export default function Header() {
                     <div className="navbar-other w-full !flex !ml-auto">
                         <ul className="navbar-nav !flex-row !items-center !ml-auto">
                             <li className="nav-item hidden xl:block lg:block md:block">
-                                <Link 
+                                {/* <Link 
                                     href="/" 
                                     className="btn btn-sm btn-violet text-white !bg-[#a07cc5] border-[#a07cc5] hover:text-white hover:bg-[#a07cc5] hover:border-[#a07cc5] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#a07cc5] active:border-[#a07cc5] disabled:text-white disabled:bg-[#a07cc5] disabled:border-[#a07cc5]  !text-[.85rem] !rounded-[50rem] hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]">
                                     Ajukan Sekarang
-                                </Link>
+                                </Link> */}
+                                <Link 
+                                    href="https://wa.me/62895424249065?text=Halo%20saya%20ingin%20mengajukan%20Gadai%20BPKB"
+                                    target="_blank" 
+                                    class="btn btn btn-primary text-white !bg-[#3362fc] border-[#3362fc] hover:text-white hover:bg-[#3362fc] hover:border-[#3362fc] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#3362fc] active:border-[#3362fc] disabled:text-white disabled:bg-[#3362fc] disabled:border-[#3362fc] !rounded-[50rem]">
+                                    Ajukan Sekarang
+                                </Link> 
                             </li>
                             <li className="nav-item xl:hidden lg:hidden">
                                 <button className="hamburger offcanvas-nav-btn">
