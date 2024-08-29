@@ -26,7 +26,7 @@ export default function Proses() {
                             <Link
                                 href="https://wa.me/62895424249065?text=Halo%20saya%20ingin%20mengajukan%20Gadai%20BPKB"
                                 target="_blank" 
-                                class="btn btn-primary text-white !bg-[#25D366] border-[#25D366] hover:text-white hover:bg-[#075E54] hover:border-[#075E54] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#25D366] active:border-[#25D366] disabled:text-white disabled:bg-[#25D366] disabled:border-[#25D366] btn-icon btn-icon-start rounded">
+                                className="btn btn-primary text-white !bg-[#25D366] border-[#25D366] hover:text-white hover:bg-[#075E54] hover:border-[#075E54] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#25D366] active:border-[#25D366] disabled:text-white disabled:bg-[#25D366] disabled:border-[#25D366] btn-icon btn-icon-start rounded">
                                 <IoLogoWhatsapp className="mr-1" /> Whatsapp
                             </Link>
                         </p>

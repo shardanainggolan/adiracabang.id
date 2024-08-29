@@ -20,9 +20,9 @@ export default function Home() {
 			<Proses />
 			<Simulasi />
 			<Faq />
-			<About />
+			{/* <About /> */}
 			{/* <Parallax /> */}
-			<Team />
+			{/* <Team /> */}
 		</>
 	);
 }

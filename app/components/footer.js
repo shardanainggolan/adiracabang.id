@@ -1,89 +1,83 @@
 import Link from "next/link"
+import { RiTwitterXFill, RiFacebookCircleFill, RiInstagramFill } from "react-icons/ri";
 
 export default function Footer() {
     return (
-        <footer className="!bg-[#f6f3f9]">
+        <footer className="!bg-[#edf2fc] mt-16">
             <div className="container">
-                <div
-                    className="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)] mt-[-6rem] xl:!mt-[-12.5rem] lg:!mt-[-12.5rem] md:!mt-[-12.5rem] mb-20 xl:!mb-[4.5rem] lg:!mb-[4.5rem] md:!mb-[4.5rem]">
-                    <div className="flex flex-wrap mx-0">
-                        <div className="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] max-w-full image-wrapper bg-image rounded-t-[0.4rem] rounded-lg-start hidden xl:block lg:block md:block bg-cover bg-[center_center] bg-no-repeat !bg-scroll md:min-h-[25rem]"
-                            data-image-src="/img/photos/tm1.jpg">
-                        </div>
-                        <div className="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] max-w-full">
-                            <div className="p-10 md:!p-12 xl:!p-[4rem] lg:!p-[4rem]">
-                                <h2 className="xl:text-[2rem] text-[calc(1.325rem_+_0.9vw)] !leading-[1.2] font-DMSerif font-normal tracking-normal !mb-3">
-                                    Let’s Talk
-                                </h2>
-                                <p className="lead !text-[1.05rem] !leading-[1.6] font-medium">
-                                    Let's make something great
-                                    together. We are trusted by over 5000+ clients. Join them by using our services and grow
-                                    your business.
-                                </p>
-                                <p>
-                                    Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas
-                                    faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                                    condimentum nibh, ut fermentum massa justo sit amet risus.
-                                </p>
-                                <Link href="#" className="btn btn-violet text-white !bg-[#a07cc5] border-[#a07cc5] hover:text-white hover:bg-[#a07cc5] hover:border-[#a07cc5] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#a07cc5] active:border-[#a07cc5] disabled:text-white disabled:bg-[#a07cc5] disabled:border-[#a07cc5]  !rounded-[50rem] !mt-2 hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]">
-                                    Join Us
+                <div className="flex flex-wrap mx-[-15px]">
+                    <div className="xl:w-11/12 xxl:w-10/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mx-auto">
+                        <div 
+                            className="card image-wrapper bg-full bg-image bg-overlay bg-overlay-400 text-white  -translate-y-2/4 mb-[-1.25rem] xl:!mt-0 lg:!mt-0  xl:-translate-y-2/4 lg:-translate-y-2/4  mb-lg-n50p border-radius-lg-top !bg-cover [background-size:100%] bg-[center_center] bg-no-repeat !bg-scroll !relative z-0 before:rounded-[0.4rem] before:bg-[rgba(30,34,40,.4)] before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0" 
+                            data-image-src="https://sandbox-tailwindapp.vercel.app/assets/img/photos/bg3.jpg"
+                            style={{ backgroundImage : 'https://sandbox-tailwindapp.vercel.app/assets/img/photos/bg3.jpg' }}>
+                            <div
+                                className="card-body p-6 flex-row text-center xl:!justify-between lg:!justify-between md:!justify-between xl:flex xl:!items-center lg:flex lg:!items-center xl:!p-12 lg:!p-12 md:!p-12 xl:!text-left lg:!text-left">
+                                <h3 className="text-[calc(1.265rem_+_0.18vw)] font-bold xl:text-[1.4rem] !leading-[1.35] xl:pr-20 lg:pr-20 xxl:pr-32 text-white mb-[1.5rem] lg:!mb-0 xl:!mb-0">
+                                    Tunggu apalagi? segera ajukan pinjaman di Adira dengan
+                                    Gadai BPKB Mobil atau Motor
+                                </h3>
+                                <Link 
+                                    href="https://wa.me/62895424249065?text=Halo%20saya%20ingin%20mengajukan%20Gadai%20BPKB"
+                                    target="_blank" 
+                                    className="btn btn-white !rounded-[50rem]  !mb-0 whitespace-nowrap">
+                                    Ajukan Sekarang
                                 </Link>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="container pb-14 !text-center">
+            <div className="container pb-14 text-center">
                 <div className="flex flex-wrap mx-[-15px] mt-[-2.5rem] lg:!mt-0 xl:!mt-0">
                     <div className="xl:w-10/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mx-auto">
                         <div className="flex flex-wrap mx-[-15px] !mb-3">
                             <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] px-[15px] max-w-full">
                                 <div className="widget">
-                                    <h4 className="widget-title">Address</h4>
-                                    <address className=" not-italic leading-[inherit] mb-4">
-                                        Moonshine St. 14/05 
-                                        <br className="hidden xl:block lg:block md:block" /> 
-                                        Light City, London, UK
+                                    <h4 className="widget-title">
+                                        Kantor Pusat Adira Finance
+                                    </h4>
+                                    <address className="not-italic leading-[inherit] mb-4">
+                                        Gedung Millenium Centennial Center Lt. 53-61
+                                        Jl. Jend. Sudirman Kav. 25 Karet Setiabudi
+                                        Jakarta Selatan, DKI Jakarta 12920
                                     </address>
                                 </div>
                             </div>
                             <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] px-[15px] max-w-full">
                                 <div className="widget">
-                                    <h4 className="widget-title">Phone</h4>
-                                    <p>00 (123) 456 78 90 <br />00 (987) 654 32 10</p>
+                                    <h4 className="widget-title">Call Center</h4>
+                                    <p>1500511</p>
                                 </div>
                             </div>
                             <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] px-[15px] max-w-full">
                                 <div className="widget">
                                     <h4 className="widget-title">E-mail</h4>
                                     <p>
-                                        <a href="mailto:sandbox@email.com" className="text-[#60697b] hover:!text-[#60697b]">
-                                            sandbox@email.com
-                                        </a> 
-                                        <br className="hidden xl:block lg:block md:block" />
-                                        <a href="mailto:help@sandbox.com" className="text-[#60697b] hover:!text-[#60697b]">
-                                            help@sandbox.com
-                                        </a>
+                                        customercare@adira.co.id
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <p>© {new Date().getFullYear()} Adira Cabang. All rights reserved.</p>
+                        <p>
+                            <strong>Sharda ID AXI 010523000681</strong> <br />
+                            © {new Date().getFullYear()} Adira Finance Berizin dan Diawasi oleh OTORITAS JASA KEUANGAN
+                        </p>
                         <nav className="nav social justify-center">
                             <Link 
                                 className="m-[0_.35rem] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
                                 href="#">
-                                <i className="uil uil-twitter before:content-['\ed59'] text-[1rem] text-[#5daed5]"></i>
+                                <RiTwitterXFill className="before:content-['\ed59'] text-[1rem] text-black" />
                             </Link>
                             <Link 
                                 className="m-[0_.35rem] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
                                 href="#">
-                                <i className="uil uil-facebook-f before:content-['\eae2'] text-[1rem] text-[#4470cf]"></i>
+                                <RiFacebookCircleFill className="before:content-['\ed59'] text-[1rem] text-[#4470cf]" />
                             </Link>
                             <Link 
                                 className="m-[0_.35rem] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
                                 href="#">
-                                <i className="uil uil-instagram before:content-['\eb9c'] text-[1rem] text-[#d53581]"></i>
+                                <RiInstagramFill className="before:content-['\ed59'] text-[1rem] text-[#d53581]" />
                             </Link>
                         </nav>
                     </div>
