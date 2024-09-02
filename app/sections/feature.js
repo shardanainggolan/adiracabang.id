@@ -19,7 +19,7 @@ export default function Feature() {
                             alt="image" 
                         /> */}
                         <h2 className="text-[0.8rem] tracking-[0.02rem] uppercase text-[#aab0bc] !mb-3 !leading-[1.35]">
-                            Keuntungan atau Manfaat
+                            Keuntungan dan Manfaat
                         </h2>
                         <h3 className="text-[calc(1.325rem_+_0.9vw)] font-bold !leading-[1.25] xl:text-[2rem] mb-12 lg:!px-5 xl:!px-0 xxl:!px-3">
                             Mengapa Harus Memilih Adira?    

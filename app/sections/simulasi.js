@@ -1,6 +1,4 @@
-import Image from "next/image"
 import Link from "next/link"
-import { CiZoomIn } from "react-icons/ci";
 
 export default function Simulasi() {
     return (
@@ -14,316 +12,316 @@ export default function Simulasi() {
                         <h2 className="text-[calc(1.325rem_+_0.9vw)] font-bold !leading-[1.25] xl:text-[2rem] lg:!px-5 xl:!px-0 xxl:!px-3">
                             Tabel Simulasi dan Penawaran  
                         </h2>
-                        <p class="lead md:text-xs text-sm !leading-[1.6] mb-7 !text-center italic">
+                        <p className="lead md:text-xs text-sm !leading-[1.6] mb-7 !text-center italic">
                             * Estimasi nilai pinjaman jaminan BPKB bukan merupakan persetujuan pinjaman dana, 
                             bersifat tidak mengikat, dan dapat disesuaikan berdasarkan penilaian lebih lanjut 
                             serta kebijakan Adira Finance.
                         </p>
                     </div>
                 </div>
-                <div class="flex flex-wrap mx-[-15px]">
-                    <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[15px] max-w-full md:mb-3 lg:mb-0 mb-5">
+                <div className="flex flex-wrap mx-[-15px]">
+                    <div className="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[15px] max-w-full md:mb-3 lg:mb-0 mb-5">
                         <h3 className="text-[1rem] tracking-[-0.03em] text-center">
                             Skema Angsuran Pinjaman Jaminan BPKB Motor
                         </h3>
-                        <table class="min-w-full border border-gray-300">
-                            <thead class="bg-[#fcd733]">
+                        <table className="min-w-full border border-gray-300">
+                            <thead className="bg-[#fcd733]">
                                 <tr className="border border-gray-300">
-                                    <th class="border border-gray-30 p-2 text-center text-xs font-bold text-black tracking-wide">
+                                    <th className="border border-gray-30 p-2 text-center text-xs font-bold text-black tracking-wide">
                                         Pinjaman
                                     </th>
-                                    <th class="border border-gray-30 p-2 text-center text-xs font-bold text-black tracking-wide">
+                                    <th className="border border-gray-30 p-2 text-center text-xs font-bold text-black tracking-wide">
                                         Tenor
                                     </th>
-                                    <th class="border border-gray-30 p-2 text-center text-xs font-bold text-black tracking-wide">
+                                    <th className="border border-gray-30 p-2 text-center text-xs font-bold text-black tracking-wide">
                                         Jumlah Angsuran
                                     </th>
                                 </tr>
                             </thead>
-                            <tbody class="bg-gray-50 divide-x divide-y divide-gray-300">
+                            <tbody className="bg-gray-50 divide-x divide-y divide-gray-300">
                                 <tr className="divide-x divide-y divide-gray-300">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 5.000.000
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         12 Bulan
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 593.000
                                     </td>
                                 </tr>
                                 <tr className="divide-x divide-y">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 5.000.000
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         24 Bulan
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 356.000
                                     </td>
                                 </tr>
                                 <tr className="divide-x divide-y">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 5.000.000
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         36 Bulan
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 281.000
                                     </td>
                                 </tr>
                                 <tr className="divide-x divide-y">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 10.000.000
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         12 Bulan	
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 1.093.000
                                     </td>
                                 </tr>
                                 <tr className="divide-x divide-y">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 10.000.000
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         24 Bulan	
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 648.000
                                     </td>
                                 </tr>
                                 <tr className="divide-x divide-y">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 10.000.000
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         36 Bulan	
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 507.000
                                     </td>
                                 </tr>
                                 <tr className="divide-x divide-y">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 15.000.000
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         12 Bulan	
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 1.593.000
                                     </td>
                                 </tr>
                                 <tr className="divide-x divide-y">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 15.000.000
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         24 Bulan		
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 941.000
                                     </td>
                                 </tr>
                                 <tr className="divide-x divide-y">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 15.000.000
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         36 Bulan	
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 733.000
                                     </td>
                                 </tr>
                                 <tr className="divide-x divide-y">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 20.000.000
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         12 Bulan
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 2.101.000
                                     </td>
                                 </tr>
                                 <tr className="divide-x divide-y">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 20.000.000
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         24 Bulan
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 1.243.000
                                     </td>
                                 </tr>
                                 <tr className="divide-x divide-y">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 20.000.000
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         36 Bulan
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 969.000
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-                    <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[15px] max-w-full">
+                    <div className="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[15px] max-w-full">
                         <h3 className="text-[1rem] tracking-[-0.03em] text-center">
                             Skema Angsuran Pinjaman Jaminan BPKB Mobil
                         </h3>
-                        <table class="min-w-full border border-gray-300">
-                            <thead class="bg-[#fcd733]">
+                        <table className="min-w-full border border-gray-300">
+                            <thead className="bg-[#fcd733]">
                                 <tr className="border border-gray-300">
-                                    <th class="border border-gray-30 p-2 text-center text-xs font-bold text-black tracking-wide">
+                                    <th className="border border-gray-30 p-2 text-center text-xs font-bold text-black tracking-wide">
                                         Pinjaman
                                     </th>
-                                    <th class="border border-gray-30 p-2 text-center text-xs font-bold text-black tracking-wide">
+                                    <th className="border border-gray-30 p-2 text-center text-xs font-bold text-black tracking-wide">
                                         Tenor
                                     </th>
-                                    <th class="border border-gray-30 p-2 text-center text-xs font-bold text-black tracking-wide">
+                                    <th className="border border-gray-30 p-2 text-center text-xs font-bold text-black tracking-wide">
                                         Jumlah Angsuran
                                     </th>
                                 </tr>
                             </thead>
-                            <tbody class="bg-gray-50 divide-x divide-y divide-gray-300">
+                            <tbody className="bg-gray-50 divide-x divide-y divide-gray-300">
                                 <tr className="divide-x divide-y divide-gray-300">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 30.000.000
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         12 Bulan
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 2.991.000
                                     </td>
                                 </tr>
                                 <tr className="divide-x divide-y">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 30.000.000
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         24 Bulan
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 1.648.000
                                     </td>
                                 </tr>
                                 <tr className="divide-x divide-y">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 30.000.000
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         36 Bulan
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 1.214.000
                                     </td>
                                 </tr>
                                 <tr className="divide-x divide-y">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 30.000.000
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         48 Bulan	
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 996.000
                                     </td>
                                 </tr>
                                 <tr className="divide-x divide-y">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 80.000.000
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         12 Bulan	
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 7.551.000
                                     </td>
                                 </tr>
                                 <tr className="divide-x divide-y">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 80.000.000	
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         24 Bulan	
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 4.121.000
                                     </td>
                                 </tr>
                                 <tr className="divide-x divide-y">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 80.000.000
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         36 Bulan
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 2.996.000
                                     </td>
                                 </tr>
                                 <tr className="divide-x divide-y">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 80.000.000
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         48 Bulan		
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 2.439.000
                                     </td>
                                 </tr>
                                 <tr className="divide-x divide-y">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 150.000.000	
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         12 Bulan	
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 13.991.000
                                     </td>
                                 </tr>
                                 <tr className="divide-x divide-y">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 150.000.000
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         24 Bulan
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 7.633.000
                                     </td>
                                 </tr>
                                 <tr className="divide-x divide-y">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 150.000.000	
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         36 Bulan	
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 5.549.000
                                     </td>
                                 </tr>
                                 <tr className="divide-x divide-y">
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 150.000.000
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         48 Bulan
                                     </td>
-                                    <td class="p-2 text-center text-black text-xs whitespace-nowrap">
+                                    <td className="p-2 text-center text-black text-xs whitespace-nowrap">
                                         Rp 5.516.000
                                     </td>
                                 </tr>

@@ -9,8 +9,8 @@ export default function Proses() {
                     Proses Pengajuan
                 </h2>
                 <p className="lead !mb-8 !text-[1.05rem] !leading-[1.6]">
-                    Proses Pengajuan Gadai BPKB Mobil atau Motor sangat mudah melalui adiracabang.id 
-                    ikuti langkah-langkah di bawah ini
+                    Proses Pengajuan Gadai BPKB Mobil atau Motor Adira sangat mudah 
+                    melalui adiracabang.id, ikuti langkah-langkah di bawah ini
                 </p>
                 <div className="flex flex-wrap mx-[-15px] xl:mx-[-35px] lg:mx-[-20px] mt-[-30px] process-wrapper line">
                     <div className="md:w-6/12 lg:w-3/12 xl:w-3/12 w-full flex-[0_0_auto] px-[15px] xl:px-[35px] lg:px-[20px] mt-[30px] max-w-full !relative after:w-full after:absolute after:content-[''] after:h-px after:z-[1] after:border-t-[rgba(164,174,198,0.2)] after:border-t after:border-solid after:left-[3rem] after:top-6 after:bg-inherit md:after:hidden sm:after:hidden xsm:after:hidden">
