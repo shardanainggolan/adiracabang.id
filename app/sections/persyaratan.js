@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Persayaratan() {
     return (
-        <section className="wrapper bg-[rgba(246,247,249,1)]">
+        <section id="persyaratan" className="wrapper bg-[rgba(246,247,249,1)]">
 			<div className="container py-[5rem] xl:!py-[7rem] lg:!py-[7rem] md:!py-[7rem]">
 				<div className="flex flex-wrap mx-[-15px] !text-center">
 					<div
@@ -16,25 +16,6 @@ export default function Persayaratan() {
                         </h3>
 					</div>
 				</div>
-				{/* <div className="flex flex-wrap mx-[-15px] xl:mx-[-35px] lg:mx-[-20px] mt-[-40px]">
-					<div className="md:w-6/12 lg:w-4/12 xl:w-4/12 w-full flex-[0_0_auto] px-[15px] max-w-full xl:px-[35px] lg:px-[20px] mt-[40px]">
-						<div className="flex flex-row">
-							<div>
-								<img 
-                                    src="./assets/img/icons/lineal/telephone-3.svg"
-									className="svg-inject icon-svg icon-svg-md !w-[2.6rem] !h-[2.6rem] text-[#343f52] text-blue mr-5 mt-1"
-									alt="image" 
-                                />
-							</div>
-							<div>
-								<h4 className="text-[1rem] tracking-[-0.03em]">24/7 Support</h4>
-								<p className="!mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget
-									lacinia odio sem aget elit nullam quis risus eget.</p>
-							</div>
-						</div>
-					</div>
-					
-				</div> */}
                 <div className="flex flex-wrap mx-[-15px] xl:mx-[-35px] lg:mx-[-20px] process-wrapper !text-center mt-9">
                     {/* <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4"> */}
                     <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-1/2 flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4">

@@ -9,8 +9,8 @@ export default function Footer() {
                     <div className="xl:w-11/12 xxl:w-10/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mx-auto">
                         <div 
                             className="card image-wrapper bg-full bg-image bg-overlay bg-overlay-400 text-white  -translate-y-2/4 mb-[-1.25rem] xl:!mt-0 lg:!mt-0  xl:-translate-y-2/4 lg:-translate-y-2/4  mb-lg-n50p border-radius-lg-top !bg-cover [background-size:100%] bg-[center_center] bg-no-repeat !bg-scroll !relative z-0 before:rounded-[0.4rem] before:bg-[rgba(30,34,40,.4)] before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0" 
-                            data-image-src="https://sandbox-tailwindapp.vercel.app/assets/img/photos/bg3.jpg"
-                            style={{ backgroundImage : 'https://sandbox-tailwindapp.vercel.app/assets/img/photos/bg3.jpg' }}>
+                            data-image-src="/img/bg/bg3.webp"
+                            style={{ backgroundImage : '/img/bg/bg3.webp' }}>
                             <div
                                 className="card-body p-6 flex-row text-center xl:!justify-between lg:!justify-between md:!justify-between xl:flex xl:!items-center lg:flex lg:!items-center xl:!p-12 lg:!p-12 md:!p-12 xl:!text-left lg:!text-left">
                                 <h3 className="text-[calc(1.265rem_+_0.18vw)] font-bold xl:text-[1.4rem] !leading-[1.35] xl:pr-20 lg:pr-20 xxl:pr-32 text-white mb-[1.5rem] lg:!mb-0 xl:!mb-0">
@@ -66,17 +66,20 @@ export default function Footer() {
                         <nav className="nav social justify-center">
                             <Link 
                                 className="m-[0_.35rem] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
-                                href="#">
+                                href="https://x.com/AdiraFinanceID"
+                                target="_blank">
                                 <RiTwitterXFill className="before:content-['\ed59'] text-[1rem] text-black" />
                             </Link>
                             <Link 
                                 className="m-[0_.35rem] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
-                                href="#">
+                                href="https://www.facebook.com/adirafinanceid/"
+                                target="_blank">
                                 <RiFacebookCircleFill className="before:content-['\ed59'] text-[1rem] text-[#4470cf]" />
                             </Link>
                             <Link 
                                 className="m-[0_.35rem] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
-                                href="#">
+                                href="https://www.instagram.com/adirafinanceid/?hl=en"
+                                target="_blank">
                                 <RiInstagramFill className="before:content-['\ed59'] text-[1rem] text-[#d53581]" />
                             </Link>
                         </nav>

@@ -1,23 +1,12 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Feature() {
     return (
-        <section className="wrapper">
+        <section id="keuntungan-manfaat" className="wrapper">
             <div className="container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
                 <div className="flex flex-wrap mx-[-15px] !text-center">
                     <div className="lg:w-10/12 xl:w-9/12 xxl:w-8/12 flex-[0_0_auto] px-[15px] max-w-full !mx-auto !relative">
-                        {/* <img 
-                            src="../../assets/img/svg/doodle3.svg" 
-                            className="!h-[3rem] absolute hidden xl:block lg:block"
-                            style={{ top: '-45%', right: '23%' }} 
-                            alt="image" 
-                        />
-                        <img 
-                            src="../../assets/img/svg/doodle4.svg" 
-                            className="h-8 absolute hidden xl:block lg:block"
-                            style={{ top: '6%', right: '2%' }}
-                            alt="image" 
-                        /> */}
                         <h2 className="text-[0.8rem] tracking-[0.02rem] uppercase text-[#aab0bc] !mb-3 !leading-[1.35]">
                             Keuntungan dan Manfaat
                         </h2>
@@ -31,7 +20,7 @@ export default function Feature() {
                         <div className="flex flex-wrap mx-[-15px] xl:mx-[-20px] lg:mx-[-20px] md:mx-[-20px] mt-[-50px] !text-center">
                             <div className="md:w-6/12 lg:w-4/12 xl:w-4/12 w-6/12 flex-[0_0_auto] px-[15px] xl:px-[20px] lg:px-[20px] md:px-[20px] mt-[50px] max-w-full">
                                 <div className="svg-bg svg-bg-lg !bg-[#fcd733] !rounded-[0.8rem] mb-4"> 
-                                    <img
+                                    <Image
                                         src="/img/features/proses-cepat.png"
                                         width={120}
                                         height={120}
@@ -45,7 +34,7 @@ export default function Feature() {
                             </div>
                             <div className="md:w-6/12 lg:w-4/12 xl:w-4/12 w-6/12 flex-[0_0_auto] px-[15px] xl:px-[20px] lg:px-[20px] md:px-[20px] mt-[50px] max-w-full">
                                 <div className="svg-bg svg-bg-lg !bg-[#fcd733] !rounded-[0.8rem] mb-4"> 
-                                    <img
+                                    <Image
                                         src="/img/features/bunga-ringan.png"
                                         width={120}
                                         height={120}
@@ -59,7 +48,7 @@ export default function Feature() {
                             </div>
                             <div className="md:w-6/12 lg:w-4/12 xl:w-4/12 w-6/12 flex-[0_0_auto] px-[15px] xl:px-[20px] lg:px-[20px] md:px-[20px] mt-[50px] max-w-full">
                                 <div className="svg-bg svg-bg-lg !bg-[#fcd733] !rounded-[0.8rem] mb-4"> 
-                                    <img
+                                    <Image
                                         src="/img/features/jumlah-pinjaman.png"
                                         width={120}
                                         height={120}
@@ -73,7 +62,7 @@ export default function Feature() {
                             </div>
                             <div className="md:w-6/12 lg:w-4/12 xl:w-4/12 w-6/12 flex-[0_0_auto] px-[15px] xl:px-[20px] lg:px-[20px] md:px-[20px] mt-[50px] max-w-full">
                                 <div className="svg-bg svg-bg-lg !bg-[#fcd733] !rounded-[0.8rem] mb-4"> 
-                                    <img
+                                    <Image
                                         src="/img/features/bpkb-aman.png"
                                         width={120}
                                         height={120}
@@ -87,7 +76,7 @@ export default function Feature() {
                             </div>
                             <div className="md:w-6/12 lg:w-4/12 xl:w-4/12 w-6/12 flex-[0_0_auto] px-[15px] xl:px-[20px] lg:px-[20px] md:px-[20px] mt-[50px] max-w-full">
                                 <div className="svg-bg svg-bg-lg !bg-[#fcd733] !rounded-[0.8rem] mb-4"> 
-                                    <img
+                                    <Image
                                         src="/img/features/transfer-langsung.png"
                                         width={120}
                                         height={120}
@@ -101,7 +90,7 @@ export default function Feature() {
                             </div>
                             <div className="md:w-6/12 lg:w-4/12 xl:w-4/12 w-6/12 flex-[0_0_auto] px-[15px] xl:px-[20px] lg:px-[20px] md:px-[20px] mt-[50px] max-w-full">
                                 <div className="svg-bg svg-bg-lg !bg-[#fcd733] !rounded-[0.8rem] mb-4"> 
-                                    <img
+                                    <Image
                                         src="/img/features/terdaftar-ojk.png"
                                         width={120}
                                         height={120}
