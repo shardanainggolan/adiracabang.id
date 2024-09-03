@@ -5,7 +5,7 @@ export const metadata = {
 	description: "Temukan cabang Adira terdekat di seluruh Indonesia untuk gadai BPKB mobil dan motor. Proses cepat, aman, dan mudah hanya di Adiracabang.id.",
 };
 
-export default async  function Cabang() {
+export default async function Cabang() {
     let data = await fetch(`${process.env.BACKEND_URL}/api/branch`)
     let branches = await data.json()
     console.log(branches.data[0])

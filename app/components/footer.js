@@ -4,7 +4,7 @@ import { RiTwitterXFill, RiFacebookCircleFill, RiInstagramFill } from "react-ico
 export default function Footer() {
     return (
         <footer className="!bg-[#edf2fc] mt-16">
-            <div className="container">
+            <div className="container pt-8">
                 <div className="flex flex-wrap mx-[-15px]">
                     <div className="xl:w-11/12 xxl:w-10/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mx-auto">
                         <div 

@@ -43,7 +43,9 @@ export default function Header() {
                                                 className="dropdown-item hover:!text-[#fcd733]"
                                                 href="https://wa.me/62895424249065?text=Halo%20saya%20ingin%20mengajukan%20Gadai%20BPKB%20Mobil"
                                                 target="_blank">
-                                                Gadai BPKB Mobil
+                                                <span className="text-wrap">
+                                                    Gadai BPKB Mobil
+                                                </span>
                                             </Link>
                                         </li>
                                         <li className="nav-item">
@@ -51,7 +53,9 @@ export default function Header() {
                                                 className="dropdown-item hover:!text-[#fcd733]"
                                                 href="https://wa.me/62895424249065?text=Halo%20saya%20ingin%20mengajukan%20Gadai%20BPKB%20Motor"
                                                 target="_blank">
-                                                Gadai BPKB Motor
+                                                <span className="text-wrap">
+                                                    Gadai BPKB Motor
+                                                </span>
                                             </Link>
                                         </li>
                                         <li className="nav-item">
@@ -59,7 +63,9 @@ export default function Header() {
                                                 className="dropdown-item hover:!text-[#fcd733]"
                                                 href="https://wa.me/62895424249065?text=Halo%20saya%20ingin%20mengajukan%20Kredit%20Mobil%20Bekas"
                                                 target="_blank">
-                                                Pembiayaan Kredit Mobil Bekas
+                                                <span className="text-wrap">
+                                                    Pembiayaan Kredit Mobil Bekas
+                                                </span>
                                             </Link>
                                         </li>
                                         <li className="nav-item">
@@ -67,7 +73,9 @@ export default function Header() {
                                                 className="dropdown-item hover:!text-[#fcd733]"
                                                 href="https://wa.me/62895424249065?text=Halo%20saya%20ingin%20mengajukan%20Take%20Over"
                                                 target="_blank">
-                                                Take Over dari leasing lain
+                                                <span className="text-wrap">
+                                                    Take Over dari leasing lain
+                                                </span>
                                             </Link>
                                         </li>
                                         <li className="nav-item">
@@ -75,7 +83,9 @@ export default function Header() {
                                                 className="dropdown-item hover:!text-[#fcd733]"
                                                 href="https://wa.me/62895424249065?text=Halo%20saya%20ingin%20mengajukan%20Top%20Up"
                                                 target="_blank">
-                                                Top Up Gadai (Khusus debitur aktif Adira)
+                                                <span className="text-wrap">
+                                                    Top Up Gadai (Khusus debitur aktif Adira)
+                                                </span>
                                             </Link>
                                         </li>
                                         <li className="nav-item">
@@ -83,7 +93,9 @@ export default function Header() {
                                                 className="dropdown-item hover:!text-[#fcd733]"
                                                 href="https://wa.me/62895424249065?text=Halo%20saya%20ingin%20mengajukan%20Cross%20Produk"
                                                 target="_blank">
-                                                Cross Produk dari kendaraan ke Gadai BPKB
+                                                <span className="text-wrap">
+                                                    Cross Produk dari kendaraan ke Gadai BPKB
+                                                </span>
                                             </Link>
                                         </li>
                                     </ul>
@@ -127,27 +139,13 @@ export default function Header() {
                             <div className="offcanvas-footer xl:hidden lg:hidden">
                                 <div>
                                     <Link 
-                                        href="/" 
-                                        className="link-inverse btn btn-sm btn-violet text-white !bg-[#a07cc5] border-[#a07cc5] hover:text-white hover:bg-[#a07cc5] hover:border-[#a07cc5] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#a07cc5] active:border-[#a07cc5] disabled:text-white disabled:bg-[#a07cc5] disabled:border-[#a07cc5]  !text-[.85rem] !rounded-[50rem] hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]">
-                                        Ajukan Sekarang
+                                        href="https://wa.me/62895424249065?text=Halo%20saya%20ingin%20mengajukan%20Gadai%20BPKB"
+                                        target="_blank" 
+                                        className="btn btn-primary text-white !bg-[#3362fc] border-[#3362fc] hover:text-white hover:bg-[#3362fc] hover:border-[#3362fc] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#3362fc] active:border-[#3362fc] disabled:text-white disabled:bg-[#3362fc] disabled:border-[#3362fc] !rounded-[50rem]">
+                                        <span className="text-wrap">
+                                            Ajukan Gadai BPKB Sekarang
+                                        </span>
                                     </Link>
-                                    <nav className="nav social social-white mt-4">
-                                        <Link 
-                                            className="text-[#cacaca] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]"
-                                            href="#">
-                                            <i className="uil uil-twitter before:content-['\ed59'] !text-white text-[1rem]"></i>
-                                        </Link>
-                                        <Link 
-                                            className="text-[#cacaca] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]"
-                                            href="#">
-                                            <i className="uil uil-facebook-f before:content-['\eae2'] !text-white text-[1rem]"></i>
-                                        </Link>
-                                        <Link 
-                                            className="text-[#cacaca] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]"
-                                            href="#">
-                                            <i className="uil uil-instagram before:content-['\eb9c'] !text-white text-[1rem]"></i>
-                                        </Link>
-                                    </nav>
                                 </div>
                             </div>
                         </div>
@@ -159,7 +157,7 @@ export default function Header() {
                                     href="https://wa.me/62895424249065?text=Halo%20saya%20ingin%20mengajukan%20Gadai%20BPKB"
                                     target="_blank" 
                                     className="btn btn btn-primary text-white !bg-[#3362fc] border-[#3362fc] hover:text-white hover:bg-[#3362fc] hover:border-[#3362fc] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#3362fc] active:border-[#3362fc] disabled:text-white disabled:bg-[#3362fc] disabled:border-[#3362fc] !rounded-[50rem]">
-                                    Ajukan Sekarang
+                                    Ajukan Gadai BPKB Sekarang
                                 </Link> 
                             </li>
                             <li className="nav-item xl:hidden lg:hidden">

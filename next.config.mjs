@@ -8,6 +8,12 @@ const nextConfig = {
             port: '',
             pathname: '/uploads/**',
           },
+          {
+            protocol: 'https',
+            hostname: 'article.axiadira.com',
+            port: '',
+            pathname: '/wp-content/uploads/**',
+          },
         ],
       },
 };

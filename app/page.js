@@ -6,9 +6,7 @@ import Service from './sections/service';
 import Proses from './sections/proses';
 import Simulasi from './sections/simulasi';
 import Faq from './sections/faq';
-import About from './sections/about';
-import Parallax from './sections/parallax';
-import Team from './sections/team';
+import Article from "./sections/article";
 
 export default function Home() {
 	return (
@@ -20,6 +18,7 @@ export default function Home() {
 			<Proses />
 			<Simulasi />
 			<Faq />
+			<Article />
 			{/* <About /> */}
 			{/* <Parallax /> */}
 			{/* <Team /> */}

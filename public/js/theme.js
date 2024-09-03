@@ -237,12 +237,33 @@ var theme = {
       e.preventDefault();
       this.blur();
       const href = this.getAttribute("href");
-      const offsetTop = document.querySelector(href).offsetTop;
-      scroll({
-        top: offsetTop,
-        behavior: "smooth"
-      });
-    }
+      const targetElement = document.querySelector(href);
+
+      
+  
+      if (targetElement) {
+          const offsetTop = targetElement.offsetTop;
+          scroll({
+              top: offsetTop,
+              behavior: "smooth"
+          });
+      } else {
+          // Navigate to the home page with the fragment
+          console.log(window.location.origin)
+          // window.location.href = href;
+          window.location.href = window.location.origin + '/' + href;
+      }
+  }
+    // function clickHandler(e) {
+    //   e.preventDefault();
+    //   this.blur();
+    //   const href = this.getAttribute("href");
+    //   const offsetTop = document.querySelector(href).offsetTop;
+    //   scroll({
+    //     top: offsetTop,
+    //     behavior: "smooth"
+    //   });
+    // }
   },
   /**
    * SVGInject

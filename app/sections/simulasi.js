@@ -3,7 +3,8 @@ import Link from "next/link"
 export default function Simulasi() {
     return (
         <section className="wrapper !bg-[#ffffff]">
-            <div className="container py-[4.5rem] xl:!py-28 lg:!py-28 md:!py-28">
+            {/* <div className="container py-[4.5rem] xl:!py-28 lg:!py-28 md:!py-28"> */}
+            <div className="container py-[4.5rem] xl:!py-14 lg:!py-14 md:!py-14">
                 <div className="flex flex-wrap mx-[-15px] !text-center">
                     <div className="lg:w-10/12 xl:w-9/12 xxl:w-8/12 flex-[0_0_auto] px-[15px] max-w-full !mx-auto !relative">
                         {/* <h2 className="text-[0.8rem] tracking-[0.02rem] uppercase text-[#aab0bc] !mb-3 !leading-[1.35]">

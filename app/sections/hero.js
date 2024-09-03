@@ -14,16 +14,21 @@ export default function Hero() {
             <div className="container">
                 <div className="flex flex-wrap mx-[-15px]">
                     <div className="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[15px] max-w-full">
-                        <div 
+                        {/* <div 
                             className="mt-10 md:!mt-12 xl:mt-[-2.5rem] lg:mt-[-2.5rem] px-10 md:!px-12 xl:!pl-0 lg:!pl-0 xl:pr-16 lg:pr-16 text-center lg:text-left xl:text-left"
                             data-cues="slideInDown" 
                             data-group="page-title" 
-                            data-delay="600">
-                            <h1 className="text-[calc(1.385rem_+_1.62vw)] !leading-[1.1] font-DMSerif !tracking-normal font-normal xl:text-[2.6rem] mb-5">
+                            data-delay="600"> */}
+                        <div className="mt-10 md:!mt-12 xl:mt-[-2.5rem] lg:mt-[-2.5rem] px-10 md:!px-12 xl:!pl-0 lg:!pl-0 xl:pr-16 lg:pr-16 text-center lg:text-left xl:text-left">
+                            {/* <h1 className="text-[calc(1.385rem_+_1.62vw)] !leading-[1.1] font-DMSerif !tracking-normal font-normal xl:text-[2.6rem] mb-5">
                                 Butuh Dana Cepat? <br /> Gadaikan BPKB Mobil atau Motor Anda sekarang juga di Adira Finance!
+                            </h1> */}
+                            <h1 className="text-[calc(1.385rem_+_1.62vw)] !leading-[1.1] font-DMSerif !tracking-normal font-normal xl:text-[2.6rem] mb-5">
+                                Pinjaman Dana Cepat: Gadai BPKB Mobil & Motor Tanpa Ribet
                             </h1>
                             <p className="lead text-[1.25rem] leading-normal mb-7 xl:!pr-[2.5rem] lg:!pr-[2.5rem] md:!pr-[2.5rem]">
-                                Pengajuan akan di proses oleh cabang Adira terdekat sesuai dengan alamat Anda.
+                                {/* Pengajuan akan di proses oleh cabang Adira terdekat sesuai dengan alamat Anda. */}
+                                Dapatkan pinjaman hingga 80% dari nilai kendaraan Anda dalam 1 hari kerja. Proses mudah, syarat ringan, dan bunga kompetitif. Solusi finansial terpercaya dengan Adira.
                             </p>
                             <div 
                                 className="flex md:!flex-row flex-col items-center justify-center lg:!justify-start" 
@@ -34,7 +39,7 @@ export default function Hero() {
                                     <Link 
                                         href="https://wa.me/62895424249065?text=Halo%20saya%20ingin%20mengajukan%20Gadai%20BPKB"
                                         target="_blank" 
-                                        className="mr-3 lg:mb-03 mb-3 btn btn-lg btn-grape !text-black !bg-[#fcd733] border-[#fcd733] hover:text-black hover:bg-[#fcd733] hover:border-[#fcd733] focus:shadow-[rgba(92,140,229,1)] active:text-black active:bg-[#fcd733] active:border-[#fcd733] disabled:text-black disabled:bg-[#fcd733] disabled:border-[#fcd733] rounded">
+                                        className="mr-3 lg:!mb-0 mb-3 btn btn-lg btn-grape !text-black !bg-[#fcd733] border-[#fcd733] hover:text-black hover:bg-[#fcd733] hover:border-[#fcd733] focus:shadow-[rgba(92,140,229,1)] active:text-black active:bg-[#fcd733] active:border-[#fcd733] disabled:text-black disabled:bg-[#fcd733] disabled:border-[#fcd733] rounded">
                                         Ajukan Sekarang
                                     </Link>
                                 </span>
