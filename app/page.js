@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Hero from './sections/hero';
 import Feature from './sections/feature';
 import Persayaratan from './sections/persyaratan';
@@ -19,9 +18,6 @@ export default function Home() {
 			<Simulasi />
 			<Faq />
 			<Article />
-			{/* <About /> */}
-			{/* <Parallax /> */}
-			{/* <Team /> */}
 		</>
 	);
 }

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { notFound } from 'next/navigation'
 import Feature from '../../sections/feature';
 import Persayaratan from '../../sections/persyaratan';
 import Service from '../../sections/service';
@@ -9,10 +10,19 @@ import Faq from '../../sections/faq';
 import { GrLocation, GrPhone, GrMailOption } from "react-icons/gr";
 import { LocalBusinessJsonLd } from 'next-seo';
 
+async function fetchBranch(slug) {
+    const res = await fetch(`${process.env.BACKEND_URL}/api/branch/slug/${slug}`)
+    const branch = await res.json()
+    if (branch.data.branchId == 0) return undefined
+    return branch.data
+}
+
 export async function generateMetadata({ params }) {
-    let data = await fetch(`${process.env.BACKEND_URL}/api/branch/slug/${params.slug}`)
-    let branchData = await data.json()
-    let branch = branchData.data
+    const branch = await fetchBranch(params.slug)
+
+    if (!branch) {
+        notFound()
+    }
 
     return {
         title: `${branch.name} | Gadai BPKB Mobil & Motor`,
@@ -60,9 +70,11 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function Page({ params }) {
-    let data = await fetch(`${process.env.BACKEND_URL}/api/branch/slug/${params.slug}`)
-    let branchData = await data.json()
-    let branch = branchData.data
+    const branch = await fetchBranch(params.slug)
+
+    if (!branch) {
+        notFound()
+    }
 
     return (
         <>

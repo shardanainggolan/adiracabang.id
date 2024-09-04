@@ -130,8 +130,8 @@ export default function Header() {
                                 </li>
                                 <li className="nav-item dropdown">
                                     <Link 
-                                        className="nav-link font-bold !tracking-[-0.01rem] hover:!text-[#fcd733]"
-                                        href="#">
+                                        className="nav-link scroll font-bold !tracking-[-0.01rem] hover:!text-[#fcd733]"
+                                        href="#artikel">
                                         Artikel
                                     </Link>
                                 </li>

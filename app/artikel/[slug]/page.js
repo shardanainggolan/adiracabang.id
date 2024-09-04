@@ -1,14 +1,24 @@
 import Image from "next/image";
 import Link from "next/link";
+import { notFound } from 'next/navigation'
 import { ArticleJsonLd } from 'next-seo';
 import { parseISO, format } from 'date-fns';
 import { id } from 'date-fns/locale'
 import OtherArticle from '../../components/other-article';
 
+async function fetchArticle(slug) {
+    const res = await fetch(`${process.env.CMS_API_URL}/posts?_embed&slug=${slug}`)
+    if (!res.ok) return undefined
+    const article = await res.json()
+    return article[0]
+}
+
 export async function generateMetadata({ params }) {
-    let data = await fetch(`${process.env.CMS_API_URL}/posts?_embed&slug=${params.slug}`)
-    let articleData = await data.json()
-    let article = articleData[0]
+    const article = await fetchArticle(params.slug)
+
+    if (!article) {
+        notFound()
+    }
 
     return {
         title: article.title.rendered,
@@ -81,9 +91,11 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function Page({ params }) {
-    let data = await fetch(`${process.env.CMS_API_URL}/posts?_embed&slug=${params.slug}`)
-    let articleData = await data.json()
-    let article = articleData[0]
+    const article = await fetchArticle(params.slug)
+
+    if (!article) {
+        notFound()
+    }
 
     const date = parseISO(article.date);
 
@@ -103,7 +115,6 @@ export default async function Page({ params }) {
 
     const getOtherArticles = await fetch(`${process.env.CMS_API_URL}/posts?categories=12&_embed&per_page=5&exclude=${article.id}`)
     const otherArticles = await getOtherArticles.json()
-    console.log(otherArticles)
     
     return (
         <>
@@ -181,7 +192,7 @@ export default async function Page({ params }) {
                                                             {tags.map((v, i) => (
                                                                 <li key={i} className="mt-0 mb-[0.45rem] mr-[0.2rem] inline-block">
                                                                     <Link
-                                                                        href={`/artikel/tag/${v.slug}`}
+                                                                        href={`/tag/${v.slug}`}
                                                                         className="btn btn-soft-ash btn-sm !rounded-[50rem] flex items-center hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,.05)] before:not-italic before:content-['#'] before:font-normal before:pr-[0.2rem]">
                                                                         {v.name}
                                                                     </Link>

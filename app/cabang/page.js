@@ -8,11 +8,10 @@ export const metadata = {
 export default async function Cabang() {
     let data = await fetch(`${process.env.BACKEND_URL}/api/branch`)
     let branches = await data.json()
-    console.log(branches.data[0])
 
 	return (
 		<>
-			<section className="wrapper  bg-[rgba(246,247,249,1)] ">
+			<section className="wrapper bg-[rgba(246,247,249,1)] ">
                 <div className="container py-14 xl:!py-24 lg:!py-24 md:!py-24 !text-center">
                     <div className="flex flex-wrap mx-[-15px]">
                         <div className="lg:w-10/12 xl:w-10/12 xxl:w-8/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mx-auto">

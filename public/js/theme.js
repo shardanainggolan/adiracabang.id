@@ -237,9 +237,8 @@ var theme = {
       e.preventDefault();
       this.blur();
       const href = this.getAttribute("href");
+      // console.log(href)
       const targetElement = document.querySelector(href);
-
-      
   
       if (targetElement) {
           const offsetTop = targetElement.offsetTop;
@@ -249,7 +248,7 @@ var theme = {
           });
       } else {
           // Navigate to the home page with the fragment
-          console.log(window.location.origin)
+          // console.log(window.location.origin)
           // window.location.href = href;
           window.location.href = window.location.origin + '/' + href;
       }

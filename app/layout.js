@@ -4,8 +4,8 @@ import './plugins.css';
 import './style.css';
 import '../public/css/dm.css';
 import Script from 'next/script';
-import Header from './components/header';
-import Footer from './components/footer';
+import Header from './layouts/header';
+import Footer from './layouts/footer';
 import CustomFloatingWhatsapp from "./components/custom-floating-whatsapp";
 import { LogoJsonLd, LocalBusinessJsonLd, SocialProfileJsonLd } from 'next-seo';
 
@@ -69,6 +69,7 @@ export default function RootLayout({ children }) {
 				/>
 			</head>
 			{/* <body className="!font-Manrope !text-[0.8rem] !font-medium !leading-[1.7] !text-[#60697b] bg-[#fefefe]"> */}
+			
 			<body className="!text-[0.8rem] !font-medium !leading-[1.7] !text-gray-700 bg-[#fefefe]">
 				<div className="grow shrink-0">
 					<Header />
@@ -77,10 +78,10 @@ export default function RootLayout({ children }) {
 				</div>
 
 				<CustomFloatingWhatsapp />
-				
-				<Script src="/js/plugins.js" />
-				<Script src="/js/theme.js" />
 			</body>
+
+			<Script src="/js/plugins.js" />
+			<Script src="/js/theme.js" />
 		</html>
 	);
 }
