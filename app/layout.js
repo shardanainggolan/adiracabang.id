@@ -2,7 +2,6 @@ import { Lato } from "next/font/google";
 import "./globals.css";
 import './plugins.css';
 import './style.css';
-import '../public/css/dm.css';
 import Script from 'next/script';
 import Header from './layouts/header';
 import Footer from './layouts/footer';
