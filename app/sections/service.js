@@ -4,15 +4,15 @@ import Link from "next/link"
 export default function Service() {
     return (
         <section className="wrapper !bg-[#ffffff]">
-			<div className="container py-[5rem] xl:!py-[7rem] lg:!py-[7rem] md:!py-[7rem]">
+			{/* <div className="container py-[5rem] xl:!py-[7rem] lg:!py-[7rem] md:!py-[7rem]"> */}
+			<div className="container py-16">
 				<div className="flex flex-wrap mx-[-15px] !text-center">
-					<div
-						className="md:w-10/12 lg:w-9/12 xl:w-9/12 xxl:w-8/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mx-auto">
+					<div className="md:w-10/12 lg:w-9/12 xl:w-9/12 xxl:w-8/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mx-auto">
 						<h2 className="!text-[.75rem] uppercase text-[#aab0bc] !mb-3 tracking-[0.02rem] !leading-[1.35]">
-							Pelayanan
+                            Layanan Gadai BPKB Mobil & Motor dari Adira Finance
                         </h2>
 						<h3 className="xl:text-[2rem] text-[calc(1.325rem_+_0.9vw)] font-bold !leading-[1.25] tracking-[-0.03em] mb-9 xl:!px-12">
-							Apa saja yang kami layani?
+                            Pilihan Layanan Gadai BPKB untuk Kendaraan Anda
                         </h3>
 					</div>
 				</div>
@@ -28,7 +28,7 @@ export default function Service() {
                             <div className="card">
                                 <figure className="card-img-top">
                                     <Image 
-                                        src="/img/services/gadai-bpkb.png"
+                                        src="/img/services/gadai-bpkb.webp"
                                         width={600}
                                         height={600}
                                         className="max-w-full h-auto"
@@ -65,7 +65,7 @@ export default function Service() {
                             <div className="card">
                                 <figure className="card-img-top">
                                     <Image 
-                                        src="/img/services/take-over.png"
+                                        src="/img/services/take-over.webp"
                                         width={600}
                                         height={600}
                                         className="max-w-full h-auto"
@@ -102,7 +102,7 @@ export default function Service() {
                             <div className="card">
                                 <figure className="card-img-top">
                                     <Image 
-                                        src="/img/services/top-up.png"
+                                        src="/img/services/top-up.webp"
                                         width={600}
                                         height={600}
                                         className="max-w-full h-auto"
@@ -140,7 +140,7 @@ export default function Service() {
                             <div className="card">
                                 <figure className="card-img-top">
                                     <Image 
-                                        src="/img/services/kredit-mobil-bekas.png"
+                                        src="/img/services/kredit-mobil-bekas.webp"
                                         width={600}
                                         height={600}
                                         className="max-w-full h-auto"

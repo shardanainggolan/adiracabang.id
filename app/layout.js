@@ -18,6 +18,45 @@ const lato = Lato({
 export const metadata = {
 	title: "Gadai BPKB Mobil & Motor | Pinjaman Cepat dari Adira",
 	description: "Pinjaman cepat dengan gadai BPKB mobil & motor di Adira. Proses mudah, bunga kompetitif. Dapatkan dana tunai Anda hari ini! Hubungi kami sekarang.",
+	robots: {
+		index: true,
+		follow: true,
+		nocache: true,
+		googleBot: {
+			index: true,
+			follow: true,
+			'max-video-preview': -1,
+			'max-image-preview': 'large',
+			'max-snippet': -1,
+		},
+	},
+	openGraph: {
+		title: 'Gadai BPKB Mobil & Motor | Pinjaman Cepat dari Adira',
+		description: 'Pinjaman cepat dengan gadai BPKB mobil & motor di Adira. Proses mudah, bunga kompetitif. Dapatkan dana tunai Anda hari ini! Hubungi kami sekarang.',
+		url: process.env.APP_URL,
+		siteName: 'Adiracabang.id',
+		images: [
+			{
+				url: `${process.env.APP_URL}/img/logo.png`,
+				width: 836,
+				height: 231,
+			},
+		],
+		locale: 'id_ID',
+		type: 'website',
+	},
+	twitter: {
+		card: 'summary_large_image',
+		title: 'Gadai BPKB Mobil & Motor | Pinjaman Cepat dari Adira',
+		description: 'Pinjaman cepat dengan gadai BPKB mobil & motor di Adira. Proses mudah, bunga kompetitif. Dapatkan dana tunai Anda hari ini! Hubungi kami sekarang.',
+		creator: '@AdiraFinanceID',
+		images: [
+			`${process.env.APP_URL}/img/logo.png`
+		],
+	},
+	alternates: {
+		canonical: process.env.APP_URL,
+	},
 };
 
 export default function RootLayout({ children }) {
@@ -26,11 +65,10 @@ export default function RootLayout({ children }) {
 			<head>
 				<link rel="stylesheet" type="text/css" href="/css/unicons.css" />
 				<link rel="stylesheet" href="/css/colors/navy.css" />
-				{/* <link rel="stylesheet" href="/css/colors/violet.css" /> */}
 
 				<LogoJsonLd
 					useAppDir={true}
-					logo={`${process.env.APP_URL}/img/logo-new.png`}
+					logo={`${process.env.APP_URL}/img/logo.png`}
 					url={process.env.APP_URL}
 				/>
 
@@ -49,7 +87,7 @@ export default function RootLayout({ children }) {
 						addressCountry: 'ID',
 					}}
 					images={[
-						`${process.env.APP_URL}/img/logo-new.png`,
+						`${process.env.APP_URL}/img/logo.png`,
 					]}
 				/>
 

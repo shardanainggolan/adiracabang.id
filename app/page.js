@@ -11,8 +11,8 @@ export default function Home() {
 	return (
 		<>
 			<Hero />
-			<Feature />
 			<Service />
+			<Feature />
 			<Persayaratan />
 			<Proses />
 			<Simulasi />

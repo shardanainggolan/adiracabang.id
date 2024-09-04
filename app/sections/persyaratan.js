@@ -9,10 +9,10 @@ export default function Persayaratan() {
 					<div
 						className="md:w-10/12 lg:w-9/12 xl:w-9/12 xxl:w-8/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mx-auto">
 						<h2 className="!text-[.75rem] uppercase text-[#aab0bc] !mb-3 tracking-[0.02rem] !leading-[1.35]">
-							Persyaratan
+                            Syarat Gadai BPKB Mobil & Motor di Adira Finance
                         </h2>
 						<h3 className="xl:text-[2rem] text-[calc(1.325rem_+_0.9vw)] font-bold !leading-[1.25] tracking-[-0.03em] mb-9 xl:!px-12">
-							Apa saja harus disiapkan untuk mengajukan Gadai BPKB Mobil atau Motor?
+                            Persyaratan Mudah untuk Gadai BPKB Anda
                         </h3>
 					</div>
 				</div>
@@ -20,7 +20,7 @@ export default function Persayaratan() {
                     {/* <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4"> */}
                     <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-1/2 flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4">
                         <Image 
-                            src="/img/persyaratan/ktp.png"
+                            src="/img/persyaratan/ktp.webp"
                             width={300}
                             height={200}
                             alt="KTP"
@@ -33,7 +33,7 @@ export default function Persayaratan() {
                     {/* <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4"> */}
                     <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-1/2 flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4">
                         <Image 
-                            src="/img/persyaratan/kartu-keluarga.png"
+                            src="/img/persyaratan/kartu-keluarga.webp"
                             width={300}
                             height={200}
                             alt="Kartu Keluarga"
@@ -46,7 +46,7 @@ export default function Persayaratan() {
                     {/* <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4"> */}
                     <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-1/2 flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4">
                         <Image 
-                            src="/img/persyaratan/bukti-penghasilan.png"
+                            src="/img/persyaratan/bukti-penghasilan.webp"
                             width={300}
                             height={200}
                             alt="Bukti Penghasilan"
@@ -59,7 +59,7 @@ export default function Persayaratan() {
                     {/* <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4"> */}
                     <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-1/2 flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4">
                         <Image 
-                            src="/img/persyaratan/bpkb.png"
+                            src="/img/persyaratan/bpkb.webp"
                             width={300}
                             height={200}
                             alt="BPKB"
@@ -73,7 +73,7 @@ export default function Persayaratan() {
                     {/* <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4"> */}
                     <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-1/2 flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4">
                         <Image 
-                            src="/img/persyaratan/stnk.png"
+                            src="/img/persyaratan/stnk.webp"
                             width={300}
                             height={200}
                             alt="STNK"
@@ -87,7 +87,7 @@ export default function Persayaratan() {
                     {/* <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4"> */}
                     <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-1/2 flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4">
                         <Image 
-                            src="/img/persyaratan/npwp.png"
+                            src="/img/persyaratan/npwp.webp"
                             width={300}
                             height={200}
                             alt="NPWP"

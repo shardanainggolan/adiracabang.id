@@ -186,10 +186,11 @@ export default function Faq() {
             {/* <div className="container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20"> */}
             <div className="container pt-10 xl:pt-14 lg:pt-14 md:pt-14 pb-8 xl:pb-10 lg:pb-10 md:pb-10">
                 <h2 className="text-[calc(1.305rem_+_0.66vw)] font-bold xl:text-[1.8rem] leading-[1.3] mb-3 !text-center">
-                    FAQ
+                    Pertanyaan Umum Seputar Gadai BPKB di Adira Finance
                 </h2>
                 <p className="lead text-[0.9rem] font-medium leading-[1.65] !text-center !mb-10 md:!px-24 xl:!px-0 lg:!px-0">
-                    Pertanyaan yang sering diajukan
+                    Temukan jawaban atas pertanyaan yang sering diajukan mengenai proses dan persyaratan 
+                    Gadai BPKB Mobil & Motor di Adira Finance. Kami siap membantu menjawab semua keraguan Anda.
                 </p>
                 <div className="flex flex-wrap mx-[-15px]">
                     <div className="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mb-0">

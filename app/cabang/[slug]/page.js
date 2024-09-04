@@ -210,9 +210,9 @@ export default async function Page({ params }) {
                     </div>
                 </div>
             </section>
-
+            
+            <Service />
             <Feature />
-			<Service />
 			<Persayaratan />
 			<Proses />
 			<Simulasi />

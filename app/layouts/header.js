@@ -9,7 +9,7 @@ export default function Header() {
                     <div className="navbar-brand w-full">
                         <Link href="/">
                             <Image
-                                src="/img/logo-new.png"
+                                src="/img/logo.png"
                                 width={134}
                                 height={37}
                                 alt="Adiracabang.id"

@@ -8,10 +8,10 @@ export default function Feature() {
                 <div className="flex flex-wrap mx-[-15px] !text-center">
                     <div className="lg:w-10/12 xl:w-9/12 xxl:w-8/12 flex-[0_0_auto] px-[15px] max-w-full !mx-auto !relative">
                         <h2 className="text-[0.8rem] tracking-[0.02rem] uppercase text-[#aab0bc] !mb-3 !leading-[1.35]">
-                            Keuntungan dan Manfaat
+                            Kenapa Memilih Adira Finance untuk Gadai BPKB?
                         </h2>
                         <h3 className="text-[calc(1.325rem_+_0.9vw)] font-bold !leading-[1.25] xl:text-[2rem] mb-12 lg:!px-5 xl:!px-0 xxl:!px-3">
-                            Mengapa Harus Memilih Adira?    
+                            Keunggulan Adira Finance untuk Gadai BPKB Mobil & Motor   
                         </h3>
                     </div>
                 </div>
@@ -21,7 +21,7 @@ export default function Feature() {
                             <div className="md:w-6/12 lg:w-4/12 xl:w-4/12 w-6/12 flex-[0_0_auto] px-[15px] xl:px-[20px] lg:px-[20px] md:px-[20px] mt-[50px] max-w-full">
                                 <div className="svg-bg svg-bg-lg !bg-[#fcd733] !rounded-[0.8rem] mb-4"> 
                                     <Image
-                                        src="/img/features/proses-cepat.png"
+                                        src="/img/features/proses-cepat.webp"
                                         width={120}
                                         height={120}
                                         className="!w-2/3 !h-auto icon-svg solid text-[#343f52] text-navy" 
@@ -35,7 +35,7 @@ export default function Feature() {
                             <div className="md:w-6/12 lg:w-4/12 xl:w-4/12 w-6/12 flex-[0_0_auto] px-[15px] xl:px-[20px] lg:px-[20px] md:px-[20px] mt-[50px] max-w-full">
                                 <div className="svg-bg svg-bg-lg !bg-[#fcd733] !rounded-[0.8rem] mb-4"> 
                                     <Image
-                                        src="/img/features/bunga-ringan.png"
+                                        src="/img/features/bunga-ringan.webp"
                                         width={120}
                                         height={120}
                                         className="!w-2/3 !h-auto icon-svg solid text-[#343f52] text-navy" 
@@ -49,7 +49,7 @@ export default function Feature() {
                             <div className="md:w-6/12 lg:w-4/12 xl:w-4/12 w-6/12 flex-[0_0_auto] px-[15px] xl:px-[20px] lg:px-[20px] md:px-[20px] mt-[50px] max-w-full">
                                 <div className="svg-bg svg-bg-lg !bg-[#fcd733] !rounded-[0.8rem] mb-4"> 
                                     <Image
-                                        src="/img/features/jumlah-pinjaman.png"
+                                        src="/img/features/jumlah-pinjaman.webp"
                                         width={120}
                                         height={120}
                                         className="!w-2/3 !h-auto icon-svg solid text-[#343f52] text-navy" 
@@ -63,7 +63,7 @@ export default function Feature() {
                             <div className="md:w-6/12 lg:w-4/12 xl:w-4/12 w-6/12 flex-[0_0_auto] px-[15px] xl:px-[20px] lg:px-[20px] md:px-[20px] mt-[50px] max-w-full">
                                 <div className="svg-bg svg-bg-lg !bg-[#fcd733] !rounded-[0.8rem] mb-4"> 
                                     <Image
-                                        src="/img/features/bpkb-aman.png"
+                                        src="/img/features/bpkb-aman.webp"
                                         width={120}
                                         height={120}
                                         className="!w-2/3 !h-auto icon-svg solid text-[#343f52] text-navy" 
@@ -77,7 +77,7 @@ export default function Feature() {
                             <div className="md:w-6/12 lg:w-4/12 xl:w-4/12 w-6/12 flex-[0_0_auto] px-[15px] xl:px-[20px] lg:px-[20px] md:px-[20px] mt-[50px] max-w-full">
                                 <div className="svg-bg svg-bg-lg !bg-[#fcd733] !rounded-[0.8rem] mb-4"> 
                                     <Image
-                                        src="/img/features/transfer-langsung.png"
+                                        src="/img/features/transfer-langsung.webp"
                                         width={120}
                                         height={120}
                                         className="!w-2/3 !h-auto icon-svg solid text-[#343f52] text-navy" 
@@ -91,7 +91,7 @@ export default function Feature() {
                             <div className="md:w-6/12 lg:w-4/12 xl:w-4/12 w-6/12 flex-[0_0_auto] px-[15px] xl:px-[20px] lg:px-[20px] md:px-[20px] mt-[50px] max-w-full">
                                 <div className="svg-bg svg-bg-lg !bg-[#fcd733] !rounded-[0.8rem] mb-4"> 
                                     <Image
-                                        src="/img/features/terdaftar-ojk.png"
+                                        src="/img/features/terdaftar-ojk.webp"
                                         width={120}
                                         height={120}
                                         className="!w-2/3 !h-auto icon-svg solid text-[#343f52] text-navy" 
