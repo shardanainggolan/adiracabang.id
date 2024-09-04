@@ -7,6 +7,7 @@ import Header from './layouts/header';
 import Footer from './layouts/footer';
 import CustomFloatingWhatsapp from "./components/custom-floating-whatsapp";
 import { LogoJsonLd, LocalBusinessJsonLd, SocialProfileJsonLd } from 'next-seo';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const lato = Lato({ 
 	subsets: ["latin"],
@@ -119,6 +120,8 @@ export default function RootLayout({ children }) {
 
 				<CustomFloatingWhatsapp />
 			</body>
+
+			<GoogleAnalytics gaId="G-CZWLN44J20" />
 
 			<Script src="/js/plugins.js" />
 			<Script src="/js/theme.js" />
