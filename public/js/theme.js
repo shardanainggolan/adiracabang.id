@@ -215,9 +215,12 @@ var theme = {
         let id = sec.getAttribute('id'); //gets the value of an attribute of an element
         if (top >= offset && top < offset + height) {
           navLinks.forEach(links => {
-            links.classList.remove('active');
-            document.querySelector(`.nav-link.scroll[href*=${id}]`).classList.add('active');
-            //[att*=val] Represents an element with the att attribute whose value contains at least one instance of the substring "val". If "val" is the empty string then the selector does not represent anything.
+            if(links.classList) {
+              links.classList.remove('active');
+              document.querySelector(`.nav-link.scroll[href*=${id}]`).classList.add('active');
+              //[att*=val] Represents an element with the att attribute whose value contains at least one instance of the substring "val". If "val" is the empty string then the selector does not represent anything.
+            }
+            
           });
         }
       });

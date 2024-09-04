@@ -150,14 +150,15 @@ export default async function Page({ params }) {
                                 <h1 className="text-[calc(1.365rem_+_1.38vw)] font-bold leading-[1.2] xl:text-[2.4rem] mb-4">
                                     {article.title.rendered}
                                 </h1>
-                                <ul className="text-[0.8rem] text-[#aab0bc] m-0 p-0 list-none !mb-5">
+                                <ul className="text-[0.8rem] text-gray-700 m-0 p-0 list-none !mb-5">
                                     <li className="post-date inline-block">
                                         <span>{ format(date, 'd LLLL yyyy', { locale: id }) }</span>
                                     </li>
                                     <li className="post-author inline-block before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:opacity-50 before:m-[0_.6rem_0_.4rem] before:rounded-[100%] before:align-[.15rem] before:bg-[#aab0bc]">
                                         <Link 
-                                            className="text-[0.8rem] text-[#aab0bc] hover:text-[#3f78e0] hover:border-[#3f78e0]"
-                                            href="/">
+                                            className="text-[0.8rem] text-gray-700 hover:text-[#3f78e0] hover:border-[#3f78e0]"
+                                            href="/"
+                                            aria-label="Adiracabang.id">
                                             <span>Adiracabang.id</span>
                                         </Link>
                                     </li>

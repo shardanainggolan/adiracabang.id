@@ -18,6 +18,9 @@ const lato = Lato({
 export const metadata = {
 	title: "Gadai BPKB Mobil & Motor | Pinjaman Cepat dari Adira",
 	description: "Pinjaman cepat dengan gadai BPKB mobil & motor di Adira. Proses mudah, bunga kompetitif. Dapatkan dana tunai Anda hari ini! Hubungi kami sekarang.",
+	icons: {
+		icon: '/favicon.ico', // /public path
+	},
 	robots: {
 		index: true,
 		follow: true,

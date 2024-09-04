@@ -67,19 +67,22 @@ export default function Footer() {
                             <Link 
                                 className="m-[0_.35rem] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
                                 href="https://x.com/AdiraFinanceID"
-                                target="_blank">
+                                target="_blank"
+                                aria-label="Adira Twitter">
                                 <RiTwitterXFill className="before:content-['\ed59'] text-[1rem] text-black" />
                             </Link>
                             <Link 
                                 className="m-[0_.35rem] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
                                 href="https://www.facebook.com/adirafinanceid/"
-                                target="_blank">
+                                target="_blank"
+                                aria-label="Adira Facebook">
                                 <RiFacebookCircleFill className="before:content-['\ed59'] text-[1rem] text-[#4470cf]" />
                             </Link>
                             <Link 
                                 className="m-[0_.35rem] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
                                 href="https://www.instagram.com/adirafinanceid/?hl=en"
-                                target="_blank">
+                                target="_blank"
+                                aria-label="Adira Instagram">
                                 <RiInstagramFill className="before:content-['\ed59'] text-[1rem] text-[#d53581]" />
                             </Link>
                         </nav>

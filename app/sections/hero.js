@@ -9,7 +9,7 @@ export default function Hero() {
                 width={575}
                 height={628}
                 alt="Adiracabang.id"
-                className="rounded-4-lg-start xl:w-5/12 lg:w-5/12 w-full flex-[0_0_auto] max-w-full xl:!order-2 xl:!absolute top-0 lg:!order-2 lg:!absolute !right-0 image-wrapper bg-image bg-cover !h-full min-h-[50vh] bg-[center_center] bg-no-repeat !bg-scroll z-0 lg:rounded-tl-[0.8rem] lg:rounded-tr-none lg:rounded-br-none lg:rounded-bl-[0.8rem] xl:rounded-tl-[0.8rem] xl:rounded-tr-none xl:rounded-br-none xl:rounded-bl-[0.8rem]"
+                className="lg:!block md:hidden hidden rounded-4-lg-start xl:w-5/12 lg:w-5/12 w-full flex-[0_0_auto] max-w-full xl:!order-2 xl:!absolute top-0 lg:!order-2 lg:!absolute !right-0 image-wrapper bg-image bg-cover !h-full min-h-[50vh] bg-[center_center] bg-no-repeat !bg-scroll z-0 lg:rounded-tl-[0.8rem] lg:rounded-tr-none lg:rounded-br-none lg:rounded-bl-[0.8rem] xl:rounded-tl-[0.8rem] xl:rounded-tr-none xl:rounded-br-none xl:rounded-bl-[0.8rem]"
             />
             <div className="container">
                 <div className="flex flex-wrap mx-[-15px]">
@@ -19,7 +19,8 @@ export default function Hero() {
                             data-cues="slideInDown" 
                             data-group="page-title" 
                             data-delay="600"> */}
-                        <div className="mt-10 md:!mt-12 xl:mt-[-2.5rem] lg:mt-[-2.5rem] px-10 md:!px-12 xl:!pl-0 lg:!pl-0 xl:pr-16 lg:pr-16 text-center lg:text-left xl:text-left">
+                        {/* <div className="mt-10 md:!mt-12 xl:mt-[-2.5rem] lg:mt-[-2.5rem] px-10 md:!px-12 xl:!pl-0 lg:!pl-0 xl:pr-16 lg:pr-16 text-center lg:text-left xl:text-left"> */}
+                        <div className="mt-10 md:!mt-12 xl:mt-[-2.5rem] lg:mt-[-2.5rem] px-2 md:!px-12 xl:!pl-0 lg:!pl-0 xl:pr-16 lg:pr-16 text-center lg:text-left xl:text-left">
                             {/* <h1 className="text-[calc(1.385rem_+_1.62vw)] !leading-[1.1] font-DMSerif !tracking-normal font-normal xl:text-[2.6rem] mb-5">
                                 Butuh Dana Cepat? <br /> Gadaikan BPKB Mobil atau Motor Anda sekarang juga di Adira Finance!
                             </h1> */}

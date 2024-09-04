@@ -14,11 +14,11 @@ export default async function Article() {
     }
 
     return (
-        <section id="artikel" className="wrapper !bg-[#ffffff] ">
+        <section className="wrapper !bg-[#ffffff] ">
             <div className="container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
                 <div className="flex flex-wrap mx-[-15px]">
                     <div className="lg:w-9/12 xl:w-8/12 xxl:w-7/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mx-auto">
-                        <h2 className="!text-[.75rem] !leading-[1.35] uppercase text-[#3f78e0]  !text-center">
+                        <h2 className="!text-[.75rem] !leading-[1.35] uppercase text-[#3362fc]  !text-center">
                             Artikel
                         </h2>
                         <h3 className="text-[calc(1.305rem_+_0.66vw)] font-bold xl:text-[1.8rem] !leading-[1.3] !mb-6 !text-center">
@@ -60,9 +60,9 @@ export default async function Article() {
                                                                 />
                                                             </Link>
                                                             <figcaption className="group-hover:opacity-100 absolute w-full h-full opacity-0 text-center px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
-                                                                <h5 className="from-top  !mb-0 absolute w-full translate-y-[-80%] p-[.75rem_1rem] left-0 top-2/4">
+                                                                <h4 className="h5 from-top !mb-0 absolute w-full translate-y-[-80%] p-[.75rem_1rem] left-0 top-2/4">
                                                                     Lanjut Baca
-                                                                </h5>
+                                                                </h4>
                                                             </figcaption>
                                                         </figure>
                                                         <div
@@ -81,7 +81,7 @@ export default async function Article() {
                                                             </div>
                                                         </div>
                                                         <div className="card-footer xl:p-[1.25rem_1.75rem_1.25rem] lg:p-[1.25rem_1.75rem_1.25rem] md:p-[1.25rem_1.75rem_1.25rem] p-[18px_40px]">
-                                                            <ul className="text-[0.7rem] text-[#aab0bc] m-0 p-0 list-none flex  !mb-0">
+                                                            <ul className="text-[0.7rem] text-gray-700 m-0 p-0 list-none flex  !mb-0">
                                                                 <li className="post-date inline-block">
                                                                     <span>
                                                                         { format(date, 'd LLLL yyyy', { locale: id }) }

@@ -7,8 +7,9 @@ export default function CustomFloatingWhatsapp() {
             <div className="wh-fixed whatsapp-pulse">
                 <Link 
                     href="https://wa.me/62895424249065?text=Halo%20Adira%20Cabang"
-                    target="_blank">
-                    <button className="wh-ap-btn"></button>
+                    target="_blank"
+                    aria-label="Hubungi Whatsapp Adiracabang.id">
+                    <button className="wh-ap-btn" aria-label="Hubungi Whatsapp Adiracabang.id"></button>
                 </Link>
             </div>
         </div>

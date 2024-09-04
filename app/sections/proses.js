@@ -20,9 +20,9 @@ export default function Proses() {
                                 01
                             </span>
                         </span>
-                        <h4 className="!mb-1">
+                        <h3 className="h4 !mb-1">
                             Hubungi Whatsapp adiracabang.id melalui link berikut
-                        </h4>
+                        </h3>
                         <p className="!mb-0">
                             <Link
                                 href="https://wa.me/62895424249065?text=Halo%20saya%20ingin%20mengajukan%20Gadai%20BPKB"
@@ -38,9 +38,9 @@ export default function Proses() {
                                 02
                             </span>
                         </span>
-                        <h4 className="!mb-1">
+                        <h3 className="h4 !mb-1">
                             Isi Data
-                        </h4>
+                        </h3>
                         <p className="!mb-0">
                             Setelah terhubung dengan Whatsapp adiracabang.id, silahkan
                             isi data yang diperlukan, seperti: Nama, Alamat, Jenis Kendaraan
@@ -52,9 +52,9 @@ export default function Proses() {
                                 03
                             </span>
                         </span>
-                        <h4 className="!mb-1">
+                        <h3 className="h4 !mb-1">
                             Menunggu persetujuan Adira
-                        </h4>
+                        </h3>
                         <p className="!mb-0">
                             Data Anda akan direview terlebih dahulu dan Anda akan dihubungi oleh marketing
                             Adira untuk proses selanjutnya.
@@ -66,9 +66,9 @@ export default function Proses() {
                                 04
                             </span>
                         </span>
-                        <h4 className="!mb-1">
+                        <h3 className="h4 !mb-1">
                             Pencairan Dana
-                        </h4>
+                        </h3>
                         <p className="!mb-0">
                             Apabila pengajuan Anda disetujui, maka dana akan dicairkan langsung ke rekening pribadi.
                         </p>

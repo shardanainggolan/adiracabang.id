@@ -7,7 +7,7 @@ export default function Feature() {
             <div className="container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
                 <div className="flex flex-wrap mx-[-15px] !text-center">
                     <div className="lg:w-10/12 xl:w-9/12 xxl:w-8/12 flex-[0_0_auto] px-[15px] max-w-full !mx-auto !relative">
-                        <h2 className="text-[0.8rem] tracking-[0.02rem] uppercase text-[#aab0bc] !mb-3 !leading-[1.35]">
+                        <h2 className="text-[0.8rem] tracking-[0.02rem] uppercase text-[#3362fc] !mb-3 !leading-[1.35]">
                             Kenapa Memilih Adira Finance untuk Gadai BPKB?
                         </h2>
                         <h3 className="text-[calc(1.325rem_+_0.9vw)] font-bold !leading-[1.25] xl:text-[2rem] mb-12 lg:!px-5 xl:!px-0 xxl:!px-3">

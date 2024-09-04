@@ -130,8 +130,8 @@ export default function Header() {
                                 </li>
                                 <li className="nav-item dropdown">
                                     <Link 
-                                        className="nav-link scroll font-bold !tracking-[-0.01rem] hover:!text-[#fcd733]"
-                                        href="#artikel">
+                                        className="nav-link font-bold !tracking-[-0.01rem] hover:!text-[#fcd733]"
+                                        href="/artikel">
                                         Artikel
                                     </Link>
                                 </li>
@@ -161,7 +161,7 @@ export default function Header() {
                                 </Link> 
                             </li>
                             <li className="nav-item xl:hidden lg:hidden">
-                                <button className="hamburger offcanvas-nav-btn">
+                                <button className="hamburger offcanvas-nav-btn" aria-label="hamburger-menu">
                                     <span></span>
                                 </button>
                             </li>

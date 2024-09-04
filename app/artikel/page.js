@@ -105,7 +105,7 @@ export default async function Artikel() {
                                                         </div> */}
                                                     </div>
                                                     <div className="card-footer xl:p-[1.25rem_1.75rem_1.25rem] lg:p-[1.25rem_1.75rem_1.25rem] md:p-[1.25rem_1.75rem_1.25rem] p-[18px_40px]">
-                                                        <ul className="text-[0.7rem] text-[#aab0bc] m-0 p-0 list-none flex  !mb-0">
+                                                        <ul className="text-[0.7rem] text-gray-700 m-0 p-0 list-none flex  !mb-0">
                                                             <li className="post-date inline-block">
                                                                 <i className="uil uil-calendar-alt pr-[0.2rem] align-[-.05rem] before:content-['\e9ba']"></i>
                                                                 <span>{ format(date, 'd LLLL yyyy', { locale: id }) }</span>

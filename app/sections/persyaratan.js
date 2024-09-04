@@ -8,7 +8,7 @@ export default function Persayaratan() {
 				<div className="flex flex-wrap mx-[-15px] !text-center">
 					<div
 						className="md:w-10/12 lg:w-9/12 xl:w-9/12 xxl:w-8/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mx-auto">
-						<h2 className="!text-[.75rem] uppercase text-[#aab0bc] !mb-3 tracking-[0.02rem] !leading-[1.35]">
+						<h2 className="!text-[.75rem] uppercase text-[#3362fc] !mb-3 tracking-[0.02rem] !leading-[1.35]">
                             Syarat Gadai BPKB Mobil & Motor di Adira Finance
                         </h2>
 						<h3 className="xl:text-[2rem] text-[calc(1.325rem_+_0.9vw)] font-bold !leading-[1.25] tracking-[-0.03em] mb-9 xl:!px-12">
