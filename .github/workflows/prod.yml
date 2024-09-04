@@ -17,4 +17,4 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           key: ${{ secrets.KEY }}
-          script: sh /home/ubuntu/deploy_scripts/deploy_axiadira.com.sh
+          script: sh /home/ubuntu/deploy_scripts/deploy_adiracabang.id.sh
