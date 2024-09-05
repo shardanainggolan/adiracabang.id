@@ -1,5 +1,9 @@
 import Image from "next/image"
 import Link from "next/link"
+import gadaiBPKBImg from '../../public/img/services/gadai-bpkb.webp'
+import takeOverImg from '../../public/img/services/take-over.webp'
+import topUpImg from '../../public/img/services/top-up.webp'
+import kreditMobilBekasImg from '../../public/img/services/kredit-mobil-bekas.webp'
 
 export default function Service() {
     return (
@@ -29,19 +33,25 @@ export default function Service() {
                             <div className="card">
                                 <figure className="card-img-top">
                                     <Image 
+                                        src={gadaiBPKBImg}
+                                        className="max-w-full h-auto"
+                                        alt="Gadai BPKB Mobil Motor"
+                                    />
+                                    {/* <Image 
                                         src="/img/services/gadai-bpkb.webp"
                                         width={600}
                                         height={600}
                                         className="max-w-full h-auto"
                                         alt="Gadai BPKB Mobil Motor"
-                                    />
+                                    /> */}
                                 </figure>
                                 <div className="card-body px-6 py-5">
                                     <h4 className="!mb-1">
                                         Gadai BPKB Mobil atau Motor
                                     </h4>
                                     <p className="!mb-0 text-xs leading-5">
-                                        Ajukan pinjaman 3 juta dengan BPKB Motor atau 20 juta dengan BPKB Mobil.
+                                        Ajukan pinjaman 3 juta dengan BPKB Motor atau 
+                                        20 juta dengan BPKB Mobil.
                                     </p>
                                     <div className="mt-3">
                                         <Link 
@@ -66,11 +76,9 @@ export default function Service() {
                             <div className="card">
                                 <figure className="card-img-top">
                                     <Image 
-                                        src="/img/services/take-over.webp"
-                                        width={600}
-                                        height={600}
+                                        src={takeOverImg}
                                         className="max-w-full h-auto"
-                                        alt="Gadai BPKB Mobil Motor"
+                                        alt="Take Over dari leasing lain"
                                     />
                                 </figure>
                                 <div className="card-body px-6 py-5">
@@ -78,7 +86,8 @@ export default function Service() {
                                         Take Over dari leasing lain
                                     </h4>
                                     <p className="!mb-0 text-xs leading-5">
-                                        Pindahkan kredit ke Adira Finance, dapatkan cicilan lebih ringan, layanan optimal, dan mudah take over BPKB.
+                                        Pindahkan kredit ke Adira Finance, dapatkan cicilan 
+                                        lebih ringan, layanan optimal, dan mudah take over BPKB.
                                     </p>
                                     <div className="mt-3">
                                         <Link 
@@ -103,11 +112,9 @@ export default function Service() {
                             <div className="card">
                                 <figure className="card-img-top">
                                     <Image 
-                                        src="/img/services/top-up.webp"
-                                        width={600}
-                                        height={600}
+                                        src={topUpImg}
                                         className="max-w-full h-auto"
-                                        alt="Gadai BPKB Mobil Motor"
+                                        alt="Top Up Gadai (Khusus debitur aktif Adira)"
                                     />
                                 </figure>
                                 <div className="card-body px-6 py-5">
@@ -116,7 +123,7 @@ export default function Service() {
                                     </h4>
                                     <p className="!mb-0 text-xs leading-5">
                                         Tambahan dana bagi debitur aktif Adira dengan 
-                                        menaikkan nilai gadai BPKB tanpa menambah tenor."
+                                        menaikkan nilai gadai BPKB tanpa menambah tenor.
                                     </p>
                                     <div className="mt-3">
                                         <Link 
@@ -141,11 +148,9 @@ export default function Service() {
                             <div className="card">
                                 <figure className="card-img-top">
                                     <Image 
-                                        src="/img/services/kredit-mobil-bekas.webp"
-                                        width={600}
-                                        height={600}
+                                        src={kreditMobilBekasImg}
                                         className="max-w-full h-auto"
-                                        alt="Gadai BPKB Mobil Motor"
+                                        alt="Pembiayaan Kredit Mobil Bekas"
                                     />
                                 </figure>
                                 <div className="card-body px-6 py-5">
@@ -170,27 +175,6 @@ export default function Service() {
                         </div>
                     </div>
                 </div>
-                {/* <div className="flex flex-wrap mx-[-15px] xl:mx-[-35px] lg:mx-[-20px] mt-[-40px]">
-                    <div
-						className="md:w-6/12 lg:w-4/12 xl:w-4/12 w-full flex-[0_0_auto] px-[15px] max-w-full xl:px-[35px] lg:px-[20px] mt-[40px]">
-						<div className="flex flex-row">
-							<div>
-                                <Image 
-                                    src="/img/services/gadai-bpkb.png"
-                                    width={104}
-                                    height={104}
-                                    className="icon-svg icon-svg-md !w-[2.6rem] !h-[2.6rem] text-[#343f52] text-blue mr-5 mt-1"
-                                    alt="Gadai BPKB"
-                                />
-							</div>
-							<div>
-								<h4 className="text-[1rem] tracking-[-0.03em]">Gadai BPKB Mobil/Motor</h4>
-								<p className="!mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget
-									lacinia odio sem aget elit nullam quis risus eget.</p>
-							</div>
-						</div>
-					</div>
-                </div> */}
 			</div>
 		</section>
     )

@@ -1,5 +1,11 @@
 import Link from "next/link"
 import Image from "next/image"
+import prosesCepatImg from '../../public/img/features/proses-cepat.webp'
+import bungaRinganImg from '../../public/img/features/bunga-ringan.webp'
+import jumlahPinjamanImg from '../../public/img/features/jumlah-pinjaman.webp'
+import bpkbAmanImg from '../../public/img/features/bpkb-aman.webp'
+import transferLangsungImg from '../../public/img/features/transfer-langsung.webp'
+import terdaftarOjkImg from '../../public/img/features/terdaftar-ojk.webp'
 
 export default function Feature() {
     return (
@@ -21,9 +27,7 @@ export default function Feature() {
                             <div className="md:w-6/12 lg:w-4/12 xl:w-4/12 w-6/12 flex-[0_0_auto] px-[15px] xl:px-[20px] lg:px-[20px] md:px-[20px] mt-[50px] max-w-full">
                                 <div className="svg-bg svg-bg-lg !bg-[#fcd733] !rounded-[0.8rem] mb-4"> 
                                     <Image
-                                        src="/img/features/proses-cepat.webp"
-                                        width={120}
-                                        height={120}
+                                        src={prosesCepatImg}
                                         className="!w-2/3 !h-auto icon-svg solid text-[#343f52] text-navy" 
                                         alt="Proses Cepat sekitar 1-2 hari kerja" 
                                     /> 
@@ -35,9 +39,7 @@ export default function Feature() {
                             <div className="md:w-6/12 lg:w-4/12 xl:w-4/12 w-6/12 flex-[0_0_auto] px-[15px] xl:px-[20px] lg:px-[20px] md:px-[20px] mt-[50px] max-w-full">
                                 <div className="svg-bg svg-bg-lg !bg-[#fcd733] !rounded-[0.8rem] mb-4"> 
                                     <Image
-                                        src="/img/features/bunga-ringan.webp"
-                                        width={120}
-                                        height={120}
+                                        src={bungaRinganImg}
                                         className="!w-2/3 !h-auto icon-svg solid text-[#343f52] text-navy" 
                                         alt="Bunga & Angsuran Ringan" 
                                     /> 
@@ -49,9 +51,7 @@ export default function Feature() {
                             <div className="md:w-6/12 lg:w-4/12 xl:w-4/12 w-6/12 flex-[0_0_auto] px-[15px] xl:px-[20px] lg:px-[20px] md:px-[20px] mt-[50px] max-w-full">
                                 <div className="svg-bg svg-bg-lg !bg-[#fcd733] !rounded-[0.8rem] mb-4"> 
                                     <Image
-                                        src="/img/features/jumlah-pinjaman.webp"
-                                        width={120}
-                                        height={120}
+                                        src={jumlahPinjamanImg}
                                         className="!w-2/3 !h-auto icon-svg solid text-[#343f52] text-navy" 
                                         alt="Jumlah pinjaman 2,5 juta – 2 milyar" 
                                     /> 
@@ -63,9 +63,8 @@ export default function Feature() {
                             <div className="md:w-6/12 lg:w-4/12 xl:w-4/12 w-6/12 flex-[0_0_auto] px-[15px] xl:px-[20px] lg:px-[20px] md:px-[20px] mt-[50px] max-w-full">
                                 <div className="svg-bg svg-bg-lg !bg-[#fcd733] !rounded-[0.8rem] mb-4"> 
                                     <Image
-                                        src="/img/features/bpkb-aman.webp"
+                                        src={bpkbAmanImg}
                                         width={120}
-                                        height={120}
                                         className="!w-2/3 !h-auto icon-svg solid text-[#343f52] text-navy" 
                                         alt="BPKB Anda dijamin aman" 
                                     /> 
@@ -77,9 +76,7 @@ export default function Feature() {
                             <div className="md:w-6/12 lg:w-4/12 xl:w-4/12 w-6/12 flex-[0_0_auto] px-[15px] xl:px-[20px] lg:px-[20px] md:px-[20px] mt-[50px] max-w-full">
                                 <div className="svg-bg svg-bg-lg !bg-[#fcd733] !rounded-[0.8rem] mb-4"> 
                                     <Image
-                                        src="/img/features/transfer-langsung.webp"
-                                        width={120}
-                                        height={120}
+                                        src={transferLangsungImg}
                                         className="!w-2/3 !h-auto icon-svg solid text-[#343f52] text-navy" 
                                         alt="Transfer langsung ke rekening pribadi" 
                                     /> 
@@ -91,9 +88,7 @@ export default function Feature() {
                             <div className="md:w-6/12 lg:w-4/12 xl:w-4/12 w-6/12 flex-[0_0_auto] px-[15px] xl:px-[20px] lg:px-[20px] md:px-[20px] mt-[50px] max-w-full">
                                 <div className="svg-bg svg-bg-lg !bg-[#fcd733] !rounded-[0.8rem] mb-4"> 
                                     <Image
-                                        src="/img/features/terdaftar-ojk.webp"
-                                        width={120}
-                                        height={120}
+                                        src={terdaftarOjkImg}
                                         className="!w-2/3 !h-auto icon-svg solid text-[#343f52] text-navy" 
                                         alt="Terdaftar di OJK" 
                                     /> 

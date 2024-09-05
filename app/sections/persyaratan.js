@@ -1,5 +1,11 @@
 import Image from "next/image"
 import Link from "next/link"
+import ktpImg from '../../public/img/persyaratan/ktp.webp'
+import kartuKeluargaImg from '../../public/img/persyaratan/kartu-keluarga.webp'
+import buktiPenghasilanImg from '../../public/img/persyaratan/bukti-penghasilan.webp'
+import bpkbImg from '../../public/img/persyaratan/bpkb.webp'
+import stnkImg from '../../public/img/persyaratan/stnk.webp'
+import npwpImg from '../../public/img/persyaratan/npwp.webp'
 
 export default function Persayaratan() {
     return (
@@ -20,9 +26,7 @@ export default function Persayaratan() {
                     {/* <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4"> */}
                     <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-1/2 flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4">
                         <Image 
-                            src="/img/persyaratan/ktp.webp"
-                            width={300}
-                            height={200}
+                            src={ktpImg}
                             alt="KTP"
                             className="text-[#3362fc] mb-3 w-2/3 m-[0_auto] rounded"
                         />
@@ -33,9 +37,7 @@ export default function Persayaratan() {
                     {/* <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4"> */}
                     <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-1/2 flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4">
                         <Image 
-                            src="/img/persyaratan/kartu-keluarga.webp"
-                            width={300}
-                            height={200}
+                            src={kartuKeluargaImg}
                             alt="Kartu Keluarga"
                             className="text-[#3362fc] mb-3 w-2/3 m-[0_auto] rounded"
                         />
@@ -46,9 +48,7 @@ export default function Persayaratan() {
                     {/* <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4"> */}
                     <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-1/2 flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4">
                         <Image 
-                            src="/img/persyaratan/bukti-penghasilan.webp"
-                            width={300}
-                            height={200}
+                            src={buktiPenghasilanImg}
                             alt="Bukti Penghasilan"
                             className="text-[#3362fc] mb-3 w-2/3 m-[0_auto] rounded"
                         />
@@ -59,9 +59,7 @@ export default function Persayaratan() {
                     {/* <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4"> */}
                     <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-1/2 flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4">
                         <Image 
-                            src="/img/persyaratan/bpkb.webp"
-                            width={300}
-                            height={200}
+                            src={bpkbImg}
                             alt="BPKB"
                             className="text-[#3362fc] mb-3 w-2/3 m-[0_auto] rounded"
                         />
@@ -73,9 +71,7 @@ export default function Persayaratan() {
                     {/* <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4"> */}
                     <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-1/2 flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4">
                         <Image 
-                            src="/img/persyaratan/stnk.webp"
-                            width={300}
-                            height={200}
+                            src={stnkImg}
                             alt="STNK"
                             className="text-[#3362fc] mb-3 w-2/3 m-[0_auto] rounded"
                         />
@@ -87,9 +83,7 @@ export default function Persayaratan() {
                     {/* <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4"> */}
                     <div className="xl:w-4/12 lg:w-4/12 md:w-4/12 w-1/2 flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full mb-4">
                         <Image 
-                            src="/img/persyaratan/npwp.webp"
-                            width={300}
-                            height={200}
+                            src={npwpImg}
                             alt="NPWP"
                             className="text-[#3362fc] mb-3 w-2/3 m-[0_auto] rounded"
                         />

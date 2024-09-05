@@ -161,7 +161,7 @@ export default async function Page({ params }) {
                                     <h5 className="!mb-1">Alamat</h5>
                                     <address className=" not-italic leading-[inherit] mb-4">
                                         {branch.address}
-                                        <br className="hidden xl:block lg:block md:block" />
+                                        <br />
                                         {branch.region.subDistrict.subDistrict}, 
                                         {branch.region.district.district}, 
                                         {branch.region.province.province}
@@ -177,8 +177,8 @@ export default async function Page({ params }) {
                                 <div>
                                     <h5 className="!mb-1">Phone</h5>
                                     <p>
-                                        {branch.telp1}<br className="hidden xl:block lg:block md:block" />
-                                        {branch.telp2}<br className="hidden xl:block lg:block md:block" />
+                                        {branch.telp1}<br />
+                                        {branch.telp2}<br />
                                         {branch.telp3}
                                     </p>
                                 </div>
@@ -192,8 +192,8 @@ export default async function Page({ params }) {
                                 <div>
                                     <h5 className="!mb-1">Fax</h5>
                                     <p className="!mb-0">
-                                        {branch.fax1}<br className="hidden xl:block lg:block md:block" />
-                                        {branch.fax2}<br className="hidden xl:block lg:block md:block" />
+                                        {branch.fax1}<br />
+                                        {branch.fax2}<br />
                                         {branch.fax3}
                                     </p>
                                 </div>

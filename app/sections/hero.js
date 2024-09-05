@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { DM_Serif_Display } from "next/font/google";
+import heroImg from '../../public/img/bg/hero.webp'
 
 const dm_serif_display = DM_Serif_Display({ 
 	subsets: ["latin"],
@@ -12,9 +13,7 @@ export default function Hero() {
     return (
         <section className="wrapper !bg-[#ffffff] !relative min-h-[70vh] xl:flex lg:flex items-center">
             <Image 
-                src="/img/bg/hero.webp"
-                width={575}
-                height={628}
+                src={heroImg}
                 alt="Adiracabang.id"
                 className="lg:!block md:hidden hidden rounded-4-lg-start xl:w-5/12 lg:w-5/12 w-full flex-[0_0_auto] max-w-full xl:!order-2 xl:!absolute top-0 lg:!order-2 lg:!absolute !right-0 image-wrapper bg-image bg-cover !h-full min-h-[50vh] bg-[center_center] bg-no-repeat !bg-scroll z-0 lg:rounded-tl-[0.8rem] lg:rounded-tr-none lg:rounded-br-none lg:rounded-bl-[0.8rem] xl:rounded-tl-[0.8rem] xl:rounded-tr-none xl:rounded-br-none xl:rounded-bl-[0.8rem]"
             />
