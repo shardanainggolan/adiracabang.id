@@ -60,7 +60,7 @@ export default function Footer() {
                             </div>
                         </div>
                         <p>
-                            <strong>Sharda ID AXI 010523000681</strong> <br />
+                            <strong>Magdalena ID AXI 011824001203</strong> <br />
                             © {new Date().getFullYear()} Adira Finance Berizin dan Diawasi oleh OTORITAS JASA KEUANGAN
                         </p>
                         <nav className="nav social justify-center">
