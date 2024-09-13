@@ -1,5 +1,37 @@
 import Link from "next/link"
 
+export const metadata = {
+	title: "Artikel Tag | Adiracabang.id",
+	description: "Dapatkan berita terbaru seputar gadai BPKB mobil dan motor, keuangan hanya di Adiracabang.id",
+    openGraph: {
+        title: 'Artikel Tag | Adiracabang.id',
+        description: 'Dapatkan berita terbaru seputar gadai BPKB mobil dan motor, keuangan hanya di Adiracabang.id',
+        url: `${process.env.APP_URL}/tag`,
+        siteName: 'Adiracabang.id',
+        images: [
+            {
+                url: `${process.env.BACKEND_URL}/img/adira-kuning.webp`,
+                width: 1140,
+                height: 540,
+            },
+        ],
+        locale: 'id_ID',
+        type: 'website',
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Artikel Tag | Adiracabang.id',
+        description: "Dapatkan berita terbaru seputar gadai BPKB mobil dan motor, keuangan hanya di Adiracabang.id",
+        creator: '@AdiraFinanceID',
+        images: [
+            `${process.env.BACKEND_URL}/img/adira-kuning.webp`
+        ],
+    },
+    alternates: {
+        canonical: `${process.env.APP_URL}/tag`,
+    },
+};
+
 export default async function Tag() {
     let data = await fetch(`${process.env.CMS_API_URL}/tags`)
   	let tags = await data.json()

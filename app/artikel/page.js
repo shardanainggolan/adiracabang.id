@@ -3,6 +3,38 @@ import Image from "next/image"
 import { parseISO, format } from 'date-fns';
 import { id } from 'date-fns/locale'
 
+export const metadata = {
+	title: "Artikel | Adiracabang.id",
+	description: "Dapatkan berita terbaru seputar gadai BPKB mobil dan motor, keuangan hanya di Adiracabang.id",
+    openGraph: {
+        title: 'Artikel | Adiracabang.id',
+        description: 'Dapatkan berita terbaru seputar gadai BPKB mobil dan motor, keuangan hanya di Adiracabang.id',
+        url: `${process.env.APP_URL}/artikel`,
+        siteName: 'Adiracabang.id',
+        images: [
+            {
+                url: `${process.env.BACKEND_URL}/img/adira-kuning.webp`,
+                width: 1140,
+                height: 540,
+            },
+        ],
+        locale: 'id_ID',
+        type: 'website',
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Artikel | Adiracabang.id',
+        description: "Dapatkan berita terbaru seputar gadai BPKB mobil dan motor, keuangan hanya di Adiracabang.id",
+        creator: '@AdiraFinanceID',
+        images: [
+            `${process.env.BACKEND_URL}/img/adira-kuning.webp`
+        ],
+    },
+    alternates: {
+        canonical: `${process.env.APP_URL}/artikel`,
+    },
+};
+
 export default async function Artikel() {
     let data = await fetch(`${process.env.CMS_API_URL}/posts?categories=13&_embed`)
     let articles = await data.json()

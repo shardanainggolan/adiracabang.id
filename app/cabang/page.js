@@ -3,6 +3,33 @@ import Link from "next/link";
 export const metadata = {
 	title: "Cari Cabang Adira Terdekat untuk Gadai BPKB Mobil & Motor",
 	description: "Temukan cabang Adira terdekat di seluruh Indonesia untuk gadai BPKB mobil dan motor. Proses cepat, aman, dan mudah hanya di Adiracabang.id.",
+    openGraph: {
+        title: 'Cari Cabang Adira Terdekat untuk Gadai BPKB Mobil & Motor',
+        description: 'Temukan cabang Adira terdekat di seluruh Indonesia untuk gadai BPKB mobil dan motor. Proses cepat, aman, dan mudah hanya di Adiracabang.id.',
+        url: `${process.env.APP_URL}/cabang`,
+        siteName: 'Adiracabang.id',
+        images: [
+            {
+                url: `${process.env.BACKEND_URL}/img/adira-kuning.webp`,
+                width: 1140,
+                height: 540,
+            },
+        ],
+        locale: 'id_ID',
+        type: 'website',
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Cari Cabang Adira Terdekat untuk Gadai BPKB Mobil & Motor',
+        description: "Temukan cabang Adira terdekat di seluruh Indonesia untuk gadai BPKB mobil dan motor. Proses cepat, aman, dan mudah hanya di Adiracabang.id.",
+        creator: '@AdiraFinanceID',
+        images: [
+            `${process.env.BACKEND_URL}/img/adira-kuning.webp`
+        ],
+    },
+    alternates: {
+        canonical: `${process.env.APP_URL}/cabang`,
+    },
 };
 
 export default async function Cabang() {
