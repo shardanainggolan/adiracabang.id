@@ -9,6 +9,7 @@ export default function CustomFloatingWhatsapp() {
             <Link 
                 href="https://wa.me/62895424249065?text=Halo%20Adira%20Cabang" 
                 className="float" 
+                aria-label="Hubungi Whatsapp Adiracabang.id"
                 target="_blank">
                 <FaWhatsapp className="wab mx-auto text-[35px]" />
                 {/* <i className="fa fa-whatsapp my-float"></i> */}
