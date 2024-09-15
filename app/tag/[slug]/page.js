@@ -17,6 +17,58 @@ async function fetchArticle(tagId) {
     return res.json()
 }
 
+export async function generateMetadata({ params }) {
+    const tag = await fetchTag(params.slug)
+
+    if (!tag) {
+        notFound()
+    }
+
+    return {
+        title: `${tag.name} | Adiracabang.id`,
+        description: `Butuh dana cepat? Gadai BPKB mobil & motor Anda di Adiracabangg.id. Proses mudah, aman, dan terpercaya.`,
+        robots: {
+            index: true,
+            follow: true,
+            nocache: true,
+            googleBot: {
+                index: true,
+                follow: true,
+                'max-video-preview': -1,
+                'max-image-preview': 'large',
+                'max-snippet': -1,
+            },
+        },
+        openGraph: {
+            title: `${tag.name} | Adiracabang.id`,
+            description: `Butuh dana cepat? Gadai BPKB mobil & motor Anda di Adiracabangg.id. Proses mudah, aman, dan terpercaya.`,
+            url: `${process.env.APP_URL}/tag/${tag.slug}`,
+            siteName: 'Adiracabang.id',
+            images: [
+                {
+                    url: `${process.env.BACKEND_URL}/img/adira-kuning.webp`,
+                    width: 1140,
+                    height: 540,
+                },
+            ],
+            locale: 'id_ID',
+            type: 'website',
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: `${tag.name} | Adiracabang.id`,
+            description: `Butuh dana cepat? Gadai BPKB mobil & motor Anda di Adiracabangg.id. Proses mudah, aman, dan terpercaya.`,
+            creator: '@AdiraFinanceID',
+            images: [
+                `${process.env.BACKEND_URL}/img/adira-kuning.webp`
+            ],
+        },
+        alternates: {
+            canonical: `${process.env.APP_URL}/tag/${tag.slug}`,
+        },
+    }
+}
+
 export default async function Page({ params }) {
     const tag = await fetchTag(params.slug)
 
@@ -40,6 +92,16 @@ export default async function Page({ params }) {
                                     Dapatkan berita terbaru seputar gadai BPKB mobil dan motor, keuangan hanya
                                     di Adiracabang.id
                                 </p>
+                                <div className="flex justify-center mt-5">
+                                    <Link 
+                                        href="https://wa.me/62895424249065?text=Halo%20saya%20ingin%20mengajukan%20Gadai%20BPKB"
+                                        target="_blank" 
+                                        className="md:w-1/2 w-full btn btn-primary text-white !bg-[#3362fc] border-[#3362fc] hover:text-white hover:bg-[#3362fc] hover:border-[#3362fc] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#3362fc] active:border-[#3362fc] disabled:text-white disabled:bg-[#3362fc] disabled:border-[#3362fc] !rounded-[50rem]">
+                                        <span className="text-wrap">
+                                            Ajukan Gadai BPKB Sekarang
+                                        </span>
+                                    </Link> 
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -72,6 +134,16 @@ export default async function Page({ params }) {
                                 Dapatkan berita terbaru seputar gadai BPKB mobil dan motor, keuangan hanya
                                 di Adiracabang.id
                             </p>
+                            <div className="flex justify-center mt-5">
+                                <Link 
+                                    href="https://wa.me/62895424249065?text=Halo%20saya%20ingin%20mengajukan%20Gadai%20BPKB"
+                                    target="_blank" 
+                                    className="md:w-1/2 w-full btn btn-primary text-white !bg-[#3362fc] border-[#3362fc] hover:text-white hover:bg-[#3362fc] hover:border-[#3362fc] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#3362fc] active:border-[#3362fc] disabled:text-white disabled:bg-[#3362fc] disabled:border-[#3362fc] !rounded-[50rem]">
+                                    <span className="text-wrap">
+                                        Ajukan Gadai BPKB Sekarang
+                                    </span>
+                                </Link> 
+                            </div>
                         </div>
                     </div>
                 </div>
